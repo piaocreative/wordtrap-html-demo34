@@ -1,0 +1,42 @@
+
+/* ----------------------------------------------------------------
+
+	pagetitle.scss
+
+-----------------------------------------------------------------*/
+
+
+/* ----------------------------------------------------------------
+	Page Title
+-----------------------------------------------------------------*/
+
+
+/* ----------------------------------------------------------------
+	Add here styles for page title. Thanks!
+-----------------------------------------------------------------*/
+
+
+#page-title {
+	position: relative;
+	padding-top: 3rem;
+	
+	.title {
+		display: block;		
+		font-family: $body-font;
+		font-size: 5rem;
+		font-weight: 800;
+		line-height: 1;
+		margin-bottom: 3.25rem;
+		color: white;
+	}
+
+	.sub-title {
+		display: block;
+		font-family: $heading-font;		
+		font-size: 3rem;
+		font-weight: 400;
+		line-height: 1;
+		margin-bottom: 0.8rem;
+		color: $primary;
+	}
+}

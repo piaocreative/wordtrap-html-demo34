@@ -1,0 +1,28 @@
+
+/*-----------------------------------------------------------------------------------
+
+	Shortcodes: partners.scss
+
+-----------------------------------------------------------------------------------*/
+
+/* ----------------------------------------------------------------
+	Partners logo Styles
+-----------------------------------------------------------------*/
+
+
+.logos {
+	.logo-item {
+		border: 1px solid #eaeaea;
+		max-width: 10.625rem;
+		height: 6.25rem;
+		width: 100%;
+		display: flex !important;
+		align-items: center;
+		justify-content: center;
+
+		img {
+			width: auto;
+			height: auto;
+		}
+	}
+} 

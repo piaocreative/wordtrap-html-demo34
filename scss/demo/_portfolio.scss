@@ -1,0 +1,36 @@
+
+/* ----------------------------------------------------------------
+
+	portfolio.scss
+
+-----------------------------------------------------------------*/
+
+
+/* ----------------------------------------------------------------
+	Portfolio
+-----------------------------------------------------------------*/
+
+.portfolio {
+    display: block;
+	overflow: hidden;
+
+	img {
+		@include transition(all 0.5s ease-in-out);
+
+		&:hover {
+			@include scale(1.2);
+		}
+	}
+}
+
+.portfolio-margin-bottom {
+	margin-bottom: 3rem;
+}
+
+.portfolio-md-margin-bottom {
+	margin-bottom: 3rem;
+
+	@media (min-width:992px) {
+		margin-bottom: 0;
+	}
+}
