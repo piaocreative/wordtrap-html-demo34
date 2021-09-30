@@ -1,0 +1,173 @@
+
+/* ----------------------------------------------------------------
+
+	extras.scss
+
+-----------------------------------------------------------------*/
+
+
+/* ----------------------------------------------------------------
+	Extra Styles
+-----------------------------------------------------------------*/
+
+
+/* ----------------------------------------------------------------
+	Add here extra styles for demo. Thanks!
+-----------------------------------------------------------------*/
+
+.contact {
+	.contact-email {
+		font-size: 2.25rem;
+		font-family: $heading-font;
+		font-weight: 400;
+		color: $primary;
+		line-height: 4rem;
+		margin-bottom: 0;
+	}
+
+	.contact-title {
+		font-size: $h1-font-size;
+		font-family: $body-font;
+		font-weight: 800;
+		color: $secondary;
+		line-height: 4rem;
+	}
+
+	.contact-icons {
+		&.dark-contact a {
+			color: white;
+			font-size: 0.7rem;
+		}
+
+		&.light-contact a {
+			color: $secondary;
+			font-size: 0.875rem;
+		}
+
+		li {
+			a {
+				font-family: $body-font;
+				line-height: 2rem;
+				
+				&:hover {
+					color: $primary;
+				}
+
+				.contact-icon {
+					color: $primary;
+					display: inline-block;
+					margin-right: 1.2rem;
+					font-size: 1.2rem;
+					width: 1.8rem;
+					text-align: center;
+				}
+			}
+		}
+	}
+}
+
+.about-bg {
+	background-image: radial-gradient(circle at 25% 30%, #8d6b59, #5d3b31)
+}
+
+.feedback {
+	input {
+		color: $body-color;
+		background-color: $third-color;
+	}
+
+	button {
+		background-color: $third-color;
+		
+		i {
+			font-size: 1.25rem;
+			line-height: 1.5rem;
+		}
+	}
+}
+
+.error-404 {
+	h2 {
+		color: $primary;
+		font-size: 3rem;
+		line-height: 4rem;
+		font-family: $heading-font;
+		font-weight: 400;
+		margin-bottom: 0;
+	}
+	
+	p {
+		color: #2f363a;
+		font-size: 1.3125rem;
+		font-family: 'Segoe UI';
+		font-weight: 300;
+		line-height: 2.5rem;
+		margin-bottom: 0;
+	}
+	
+	span {
+		color: $primary;
+		font-size: 1.125rem;
+		font-family: 'Segoe UI';
+		font-weight: 300;
+		line-height: 2.5rem;
+	}
+}
+
+.col-37 {
+	width: 100%;
+
+	@media (min-width: 1600px) {
+		width: 37%;
+	}
+}
+
+.col-63 {
+	width: 100%;
+
+	@media (min-width: 1600px) {
+		width: 63%;
+	}
+}
+
+.choose-title {
+	padding: 1rem 2rem;
+	justify-content: center;
+	text-align: center;
+	
+	@media (min-width: 992px) {
+		justify-content: start;
+		text-align: left;
+		padding: 1rem 2.5rem;
+	}
+	
+	@media (min-width: 1600px) {
+		justify-content: end;
+		text-align: left;
+		padding: 3rem 5rem;
+	}
+
+	h3 {
+		color: #282828;
+		font-size: $h3-font-size;
+		line-height: 2.3rem;
+		font-weight: 700;
+		margin-bottom: 0;
+	}
+}
+
+.choose-content {
+	padding-left: 2.34375rem;
+	padding-right: 2.4rem;
+	
+	@media (min-width: 1600px) {
+		padding-right: 8rem;
+	}
+
+	span {
+		color: #282828;
+		font-size: $h5-font-size;
+		line-height: 1.5rem;
+		font-weight: 400;
+	}
+}

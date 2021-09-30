@@ -1,0 +1,32 @@
+
+/*-----------------------------------------------------------------------------------
+
+	Shortcodes: headings.scss
+
+-----------------------------------------------------------------------------------*/
+
+/* ----------------------------------------------------------------
+	Heading Styles
+-----------------------------------------------------------------*/
+
+
+/* Heading Block - with Subtitle
+-----------------------------------------------------------------*/
+
+.heading-block { 
+	margin-bottom: 3.75rem; 
+	text-align: center;
+
+	@media (min-width: 992px){
+		text-align: left;
+	}
+
+	.title {		
+		display: block;
+		font-family: $body-font;
+		font-size: $h2-font-size;
+		font-weight: 800;
+		line-height: 1;
+		margin-bottom: 0;
+	}
+}
