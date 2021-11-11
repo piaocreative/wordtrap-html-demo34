@@ -10,14 +10,11 @@
 .heading-font { font-family: $heading-font !important; }
 
 // Font Weight
-.fw-semi-bold { font-weight: 700 !important; }
-
-.fs-large {font-size: 3rem;}
+.fw-semi-bold { font-weight: 600 !important; }
+.fw-bold { font-weight: 700 !important; }
 
 // Text Color
 .text-black { color: #000 !important; }
-.text-custom { color: #b4aba0 !important; }
-.text-ads {color: #735244 !important; }
 
 
 //-------------------- Image --------------------//
@@ -46,20 +43,4 @@ img {
 	position: relative;
 	padding-top: $section-spacer;
 	padding-bottom: $section-spacer;
-}
-
-.section-padding-top {
-	padding-top: $section-spacer;
-}
-
-.section-padding-bottom {
-	padding-bottom: $section-spacer;
-}
-
-.section-margin-top {
-	margin-top: $section-spacer;
-}
-
-.section-margin-bottom {
-	margin-bottom: $section-spacer;
 }

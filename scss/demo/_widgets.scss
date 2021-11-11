@@ -41,7 +41,7 @@
 				}
 		
 				a {
-					background-color: $third-color;					
+					background-color: #2e2e2e;					
 					color: #b7b7b7;
 					display: inline-block;
 					line-height: 1.8125rem;
@@ -60,6 +60,31 @@
 						vertical-align: top;
 						line-height: 1.8125rem;
 					}
+				}
+			}
+		}
+	}
+
+	&.widget-custom-html {
+		ul {
+			li {
+				a {
+					line-height: 2rem;
+					color: $white;
+					font-size: 0.875rem;
+
+					&:hover {
+						color: $primary;
+					}
+				}
+
+				i {
+					color: $primary;
+					display: inline-block;
+					margin-right: 1.2rem;
+					font-size: 1.2rem;
+					width: 1.8rem;
+					text-align: center;
 				}
 			}
 		}
@@ -93,7 +118,7 @@
 				margin-left: 0.4rem;
 				width: 4rem;
 				padding: 0.125rem 0;
-				background-color: $third-color;
+				background-color: #2e2e2e;
 				
 				img {
 					width: 3rem;
