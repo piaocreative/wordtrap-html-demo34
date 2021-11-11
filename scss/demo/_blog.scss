@@ -49,20 +49,6 @@
 	padding: 1.875rem 0;
 }
 
-.entry-title {
-	h4 {
-		font-family: $body-font;
-		font-weight: 400;
-		line-height: $line-height-sm;		
-
-		a {
-			color: $heading-color;
-			
-			&:hover { color: $theme-color; }
-		}
-	}
-}
-
 .entry-meta {
 	list-style: none;
 	margin-bottom: 1.25rem;
@@ -87,7 +73,6 @@
 .entry-link {
 	display: block;
 	color: $theme-color;
-	font-family: $body-font;
 	text-transform: uppercase;
 	font-size: $h6-font-size;
 	font-weight: 600;

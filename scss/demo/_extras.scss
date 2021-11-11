@@ -32,52 +32,15 @@
 		color: $secondary;
 		line-height: 4rem;
 	}
-
-	.contact-icons {
-		&.dark-contact a {
-			color: white;
-			font-size: 0.7rem;
-		}
-
-		&.light-contact a {
-			color: $secondary;
-			font-size: 0.875rem;
-		}
-
-		li {
-			a {
-				font-family: $body-font;
-				line-height: 2rem;
-				
-				&:hover {
-					color: $primary;
-				}
-
-				.contact-icon {
-					color: $primary;
-					display: inline-block;
-					margin-right: 1.2rem;
-					font-size: 1.2rem;
-					width: 1.8rem;
-					text-align: center;
-				}
-			}
-		}
-	}
-}
-
-.about-bg {
-	background-image: radial-gradient(circle at 25% 30%, #8d6b59, #5d3b31)
 }
 
 .feedback {
 	input {
-		color: $body-color;
-		background-color: $third-color;
+		background-color: #2e2e2e;
 	}
 
 	button {
-		background-color: $third-color;
+		background-color: #2e2e2e;
 		
 		i {
 			font-size: 1.25rem;
@@ -114,38 +77,8 @@
 	}
 }
 
-.col-37 {
-	width: 100%;
-
-	@media (min-width: 1600px) {
-		width: 37%;
-	}
-}
-
-.col-63 {
-	width: 100%;
-
-	@media (min-width: 1600px) {
-		width: 63%;
-	}
-}
-
 .choose-title {
-	padding: 1rem 2rem;
-	justify-content: center;
-	text-align: center;
-	
-	@media (min-width: 992px) {
-		justify-content: start;
-		text-align: left;
-		padding: 1rem 2.5rem;
-	}
-	
-	@media (min-width: 1600px) {
-		justify-content: end;
-		text-align: left;
-		padding: 3rem 5rem;
-	}
+	padding: 3rem 5rem;
 
 	h3 {
 		color: #282828;
