@@ -3635,8 +3635,8 @@ textarea.form-control-lg {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  padding-top: 2.625rem;
-  padding-bottom: 2.625rem;
+  padding-top: 0rem;
+  padding-bottom: 0rem;
 }
 .navbar > .container,
 .navbar > .container-fluid,
@@ -9960,18 +9960,24 @@ textarea.form-control-lg {
 }
 #demo34 #header {
   position: relative;
+  margin-bottom: -6vw;
+}
+@media (min-width: 992px) {
+  #demo34 #header {
+    margin-bottom: -6.4625rem;
+  }
 }
 #demo34 #header.transparent-header {
-  background: transparent;
+  background: white;
   z-index: 199;
 }
-#demo34 #header.transparent-header + #banner {
-  top: -5.875rem;
-  margin-bottom: -5.875rem;
-}
 #demo34 #header-wrap {
-  padding-left: 3rem;
-  padding-right: 3rem;
+  padding: 1.25rem 1.75rem;
+}
+@media (min-width: 1200px) {
+  #demo34 #header-wrap {
+    padding: 0 3rem;
+  }
 }
 #demo34 .navbar-brand {
   margin-right: 7.875rem;
@@ -10131,19 +10137,315 @@ textarea.form-control-lg {
   vertical-align: top;
   line-height: 1.8125rem;
 }
-#demo34 .banner {
-  background-image: url(../images/banner/banner_bg.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
+#demo34 .banner .banner-date {
+  font-family: "Montserrat", "Sans Serif";
+  font-size: 0.5rem;
+  font-weight: 400;
+  color: #7d7b78;
+  margin-bottom: 0;
+  line-height: 0.9;
 }
-#demo34 .banner .banner-wrap {
-  padding-top: 11.875rem;
-  padding-bottom: 9rem;
+@media (min-width: 768px) {
+  #demo34 .banner .banner-date {
+    font-size: 0.625rem;
+    margin-bottom: 1rem;
+    line-height: 0.95;
+  }
 }
-#demo34 .banner#about-banner {
-  background-image: radial-gradient(circle at 25% 30%, #8d6b59, #5d3b31);
-  padding: 4.5rem 0;
+@media (min-width: 992px) {
+  #demo34 .banner .banner-date {
+    font-size: 1rem;
+    line-height: 1;
+  }
+}
+@media (min-width: 1200px) {
+  #demo34 .banner .banner-date {
+    font-size: 0.875rem;
+    line-height: 1.5;
+  }
+}
+@media (min-width: 1400px) {
+  #demo34 .banner .banner-date {
+    font-size: 1.0625rem;
+    line-height: 1.75;
+  }
+}
+#demo34 .banner .banner-head {
+  font-family: "Montserrat", "Sans Serif";
+  font-size: 2rem;
+  font-weight: 800;
+  line-height: 0.85;
+  color: #282828;
+}
+@media (min-width: 768px) {
+  #demo34 .banner .banner-head {
+    font-size: 2.75rem;
+    line-height: 0.95;
+  }
+}
+@media (min-width: 992px) {
+  #demo34 .banner .banner-head {
+    font-size: 3.25rem;
+    line-height: 1.1;
+  }
+}
+@media (min-width: 1200px) {
+  #demo34 .banner .banner-head {
+    font-size: 3.75rem;
+    line-height: 1.2;
+  }
+}
+@media (min-width: 1400px) {
+  #demo34 .banner .banner-head {
+    font-size: 5.625rem;
+    line-height: 1.25;
+  }
+}
+#demo34 .banner .banner-address {
+  font-family: "Mr Dafoe", "Sans Serif";
+  font-size: 1.75rem;
+  font-weight: 400;
+  color: #c29a5c;
+  margin-bottom: 0;
+  line-height: 0.9;
+}
+@media (min-width: 768px) {
+  #demo34 .banner .banner-address {
+    font-size: 2.25rem;
+    line-height: 0.95;
+  }
+}
+@media (min-width: 992px) {
+  #demo34 .banner .banner-address {
+    font-size: 2.75rem;
+    line-height: 1.25;
+  }
+}
+@media (min-width: 1200px) {
+  #demo34 .banner .banner-address {
+    font-size: 3.25rem;
+    line-height: 1.75;
+  }
+}
+@media (min-width: 1400px) {
+  #demo34 .banner .banner-address {
+    font-size: 3.946875rem;
+    line-height: 2.15;
+  }
+}
+#demo34 .banner .banner-description {
+  font-family: "Montserrat", "Sans Serif";
+  font-size: 0.625rem;
+  font-weight: 0.7;
+  color: #7d7b78;
+  width: 75%;
+  line-height: 1.6;
+  display: none;
+}
+@media (min-width: 768px) {
+  #demo34 .banner .banner-description {
+    display: block;
+  }
+}
+@media (min-width: 1200px) {
+  #demo34 .banner .banner-description {
+    font-size: 1rem;
+    width: 50%;
+    left: 112.5%;
+    top: 62.5%;
+  }
+}
+#demo34 .banner .banner-start-text {
+  left: 18.5%;
+  top: 50%;
+  translate: 0% -50%;
+}
+#demo34 .banner .banner-middle-text {
+  left: 65%;
+  top: 55%;
+  translate: -50% -50%;
+}
+#demo34 .banner .banner-middle-text .banner-date {
+  color: #eeeae8;
+}
+#demo34 .banner .banner-middle-text .banner-head {
+  color: white;
+}
+#demo34 .banner .banner-middle-text .banner-description {
+  color: #9d8073;
+}
+#demo34 .banner .banner-end-text {
+  left: 18.5%;
+  top: 55%;
+  translate: 0% -50%;
+}
+#demo34 .banner .banner-end-subtext {
+  left: 78.5%;
+  top: 60%;
+  translate: 0% -50%;
+  font-family: "Montserrat", "Sans Serif";
+}
+#demo34 .banner .banner-end-subtext .banner-sub-head {
+  color: #2f363a;
+  margin-bottom: 0%;
+  font-size: 0.5rem;
+  line-height: 0.9;
+}
+@media (min-width: 768px) {
+  #demo34 .banner .banner-end-subtext .banner-sub-head {
+    font-size: 0.625rem;
+    line-height: 0.95;
+  }
+}
+@media (min-width: 992px) {
+  #demo34 .banner .banner-end-subtext .banner-sub-head {
+    font-size: 0.75rem;
+    line-height: 1.25;
+  }
+}
+@media (min-width: 1200px) {
+  #demo34 .banner .banner-end-subtext .banner-sub-head {
+    font-size: 0.875rem;
+    line-height: 1.75;
+  }
+}
+@media (min-width: 1400px) {
+  #demo34 .banner .banner-end-subtext .banner-sub-head {
+    font-size: 1.0625rem;
+    line-height: 2;
+  }
+}
+#demo34 .banner .banner-end-subtext .banner-sub-type {
+  color: #c29a5c;
+  margin-bottom: 0%;
+  font-size: 0.5rem;
+  line-height: 0.9;
+}
+@media (min-width: 992px) {
+  #demo34 .banner .banner-end-subtext .banner-sub-type {
+    font-size: 0.625rem;
+    line-height: 1;
+  }
+}
+@media (min-width: 1200px) {
+  #demo34 .banner .banner-end-subtext .banner-sub-type {
+    font-size: 0.75rem;
+    line-height: 1.25;
+  }
+}
+@media (min-width: 1400px) {
+  #demo34 .banner .banner-end-subtext .banner-sub-type {
+    font-size: 0.875rem;
+    line-height: 1.75;
+  }
+}
+#demo34 .banner .banner-end-subtext .banner-sub-add {
+  margin-bottom: 0;
+  color: #c29a5c;
+  padding-left: 1.25vw;
+  padding-right: 0.5vw;
+  font-size: 0.5rem;
+  line-height: 0.9;
+}
+@media (min-width: 768px) {
+  #demo34 .banner .banner-end-subtext .banner-sub-add {
+    font-size: 0.625rem;
+    line-height: 1;
+  }
+}
+@media (min-width: 992px) {
+  #demo34 .banner .banner-end-subtext .banner-sub-add {
+    font-size: 0.75rem;
+    line-height: 1.25;
+  }
+}
+@media (min-width: 1200px) {
+  #demo34 .banner .banner-end-subtext .banner-sub-add {
+    font-size: 0.875rem;
+    line-height: 1.75;
+  }
+}
+@media (min-width: 1400px) {
+  #demo34 .banner .banner-end-subtext .banner-sub-add {
+    font-size: 1.0625rem;
+    line-height: 2.1;
+  }
+}
+#demo34 .banner .banner-end-subtext .banner-sub-price {
+  margin-bottom: 0;
+  font-size: 0.75rem;
+  line-height: 0.9;
+}
+@media (min-width: 768px) {
+  #demo34 .banner .banner-end-subtext .banner-sub-price {
+    font-size: 0.865rem;
+    line-height: 1;
+  }
+}
+@media (min-width: 992px) {
+  #demo34 .banner .banner-end-subtext .banner-sub-price {
+    font-size: 1rem;
+    display: block;
+    line-height: 1.25;
+  }
+}
+@media (min-width: 1200px) {
+  #demo34 .banner .banner-end-subtext .banner-sub-price {
+    font-size: 1.25rem;
+    line-height: 1.75;
+  }
+}
+@media (min-width: 1400px) {
+  #demo34 .banner .banner-end-subtext .banner-sub-price {
+    font-size: 1.5rem;
+    line-height: 2.1;
+  }
+}
+#demo34 .banner .banner-end-subtext .banner-sub-icon {
+  width: 1rem;
+  line-height: 0.9;
+}
+@media (min-width: 768px) {
+  #demo34 .banner .banner-end-subtext .banner-sub-icon {
+    width: 1.25rem;
+    line-height: 1;
+  }
+}
+@media (min-width: 992px) {
+  #demo34 .banner .banner-end-subtext .banner-sub-icon {
+    width: 1.75rem;
+    line-height: 1.25;
+  }
+}
+@media (min-width: 1200px) {
+  #demo34 .banner .banner-end-subtext .banner-sub-icon {
+    width: 2rem;
+    line-height: 1.75;
+  }
+}
+@media (min-width: 1400px) {
+  #demo34 .banner .banner-end-subtext .banner-sub-icon {
+    width: 2.4375rem;
+    line-height: 2.1;
+  }
+}
+#demo34 #indicator {
+  position: absolute;
+  left: 18.5%;
+  bottom: 10%;
+  translate: -50% -50%;
+}
+#demo34 #indicator ul {
+  display: flex;
+}
+#demo34 #indicator ul li {
+  padding: 0 1.5rem;
+}
+#demo34 #indicator .slick-dots li button:before {
+  content: url("../images/icons/slick_dots/dot.png");
+}
+#demo34 #indicator .slick-dots li.slick-active button:before {
+  content: url("../images/icons/slick_dots/dot_active.png");
 }
 #demo34 .post {
   position: relative;
@@ -10638,10 +10940,8 @@ textarea.form-control-lg {
 #demo34 img.img-full.img-pos-right {
   object-position: right;
 }
-#demo34 .section {
-  position: relative;
-  padding-top: 6.25rem;
-  padding-bottom: 6.25rem;
+#demo34 section {
+  margin-bottom: 6.25rem;
 }
 #demo34 .fbox {
   position: relative;

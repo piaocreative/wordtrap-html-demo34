@@ -18,14 +18,14 @@
 
 #header {
 	position: relative;
+	margin-bottom: -6vw;
 	// Transparent header
+	@include media-breakpoint-up (lg) {
+		margin-bottom: -1.1*$header-height;
+	}
 	&.transparent-header {
-		background: transparent;
+		background: white;
 		z-index: 199;
-		& + #banner {
-			top: -$header-height;
-			margin-bottom: -$header-height;
-		}
 	}
 }
 
@@ -35,8 +35,10 @@
 -----------------------------------------------------------------*/
 
 #header-wrap {
-	padding-left: 3rem;
-	padding-right: 3rem;
+	padding: 1.25rem 1.75rem;
+	@include media-breakpoint-up (xl) {
+		padding: 0 3rem;
+	}
 }
 
 

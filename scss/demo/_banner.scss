@@ -17,18 +17,248 @@
 
 
 .banner {
-    background-image: url(../images/banner/banner_bg.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-
-    .banner-wrap {
-        padding-top: 11.875rem;
-        padding-bottom: 9rem;
+    .banner-date {
+        font-family: $body-font;
+        font-size: 0.5rem;
+        font-weight: 400;
+        color: $body-color;
+        margin-bottom: 0;
+        line-height: 0.9;
+        @include media-breakpoint-up (md) {
+            font-size: 0.625rem;
+            margin-bottom: 1rem;
+            line-height: 0.95;
+        }
+        @include media-breakpoint-up (lg) {
+            font-size: 1rem;
+            line-height: 1;
+        }
+        @include media-breakpoint-up (xl) {
+            font-size: 0.875rem;
+            line-height: 1.5;
+        }
+        @include media-breakpoint-up (xxl) {
+            font-size: 1.0625rem;
+            line-height: 1.75;
+        }
     }
-
-    &#about-banner {
-        background-image: radial-gradient(circle at 25% 30%, #8d6b59, #5d3b31);
-        padding: 4.5rem 0;
+    .banner-head {
+        font-family: $body-font;
+        font-size: 2rem;
+        font-weight: 800;
+        line-height: 0.85;
+        color: #282828;
+        @include media-breakpoint-up (md) {
+            font-size: 2.75rem;
+            line-height: 0.95;
+        }
+        @include media-breakpoint-up (lg) {
+            font-size: 3.25rem;
+            line-height: 1.1;
+        }
+        @include media-breakpoint-up (xl) {
+            font-size: 3.75rem;
+            line-height: 1.2;
+        }
+        @include media-breakpoint-up (xxl) {
+            font-size: 5.625rem;
+            line-height: 1.25;
+        }
+    }
+    .banner-address {
+        font-family: $heading-font;
+        font-size: 1.75rem;
+        font-weight: 400;
+        color: $theme-color;
+        margin-bottom: 0;
+        line-height: 0.9;
+        @include media-breakpoint-up (md) {
+            font-size: 2.25rem;
+            line-height: 0.95;
+        }
+        @include media-breakpoint-up (lg) {
+            font-size: 2.75rem;
+            line-height: 1.25;
+        }
+        @include media-breakpoint-up (xl) {
+            font-size: 3.25rem;
+            line-height: 1.75;
+        }
+        @include media-breakpoint-up (xxl) {
+            font-size: 3.946875rem;
+            line-height: 2.15;
+        }
+    }
+    .banner-description {
+        font-family: $body-font;
+        font-size: 0.625rem;
+        font-weight: 0.7;
+        color: $body-color;
+        width: 75%;
+        line-height: 1.6;
+        display: none;
+        @include media-breakpoint-up (md) {
+            display: block;
+        }
+        @include media-breakpoint-up (xl) {
+            font-size: 1rem;
+            width: 50%;
+            left: 112.5%;
+            top: 62.5%;
+        }
+    }
+    .banner-start-text {
+        left: 18.5%;
+        top: 50%;
+        translate: 0% -50%;
+    }
+    .banner-middle-text {
+        left: 65%;
+        top: 55%;
+        translate: -50% -50%;
+        .banner-date {
+            color: #eeeae8;
+        }
+        .banner-head {
+            color: white;
+        }
+        .banner-description {
+            color: #9d8073;
+        }
+    }
+    .banner-end-text {
+        left: 18.5%;
+        top: 55%;
+        translate: 0% -50%;
+    }
+    .banner-end-subtext {
+        left: 78.5%;
+        top: 60%;
+        translate: 0% -50%;
+        font-family: $body-font;
+        .banner-sub-head {
+            color: #2f363a;
+            margin-bottom: 0%;
+            font-size: 0.5rem;
+            line-height: 0.9;
+            @include media-breakpoint-up (md) {
+                font-size: 0.625rem;
+                line-height: 0.95;
+            }
+            @include media-breakpoint-up (lg) {
+                font-size: 0.75rem;
+                line-height: 1.25;
+            }
+            @include media-breakpoint-up (xl) {
+                font-size: 0.875rem;
+                line-height: 1.75;
+            }
+            @include media-breakpoint-up (xxl) {
+                font-size: 1.0625rem;
+                line-height: 2;
+            }
+        }
+        .banner-sub-type {
+            color: $theme-color;
+            margin-bottom: 0%;
+            font-size: 0.5rem;
+            line-height: 0.9;
+            @include media-breakpoint-up (lg) {
+                font-size: 0.625rem;
+                line-height: 1;
+            }
+            @include media-breakpoint-up (xl) {
+                font-size: 0.75rem;
+                line-height: 1.25;
+            }
+            @include media-breakpoint-up (xxl) {
+                font-size: 0.875rem;
+                line-height: 1.75;
+            }
+        }
+        .banner-sub-add {
+            margin-bottom: 0;
+            color: $theme-color;
+            padding-left: 1.25vw;
+            padding-right: 0.5vw;
+            font-size: 0.5rem;
+            line-height: 0.9;
+            @include media-breakpoint-up (md) {
+                font-size: 0.625rem;
+                line-height: 1;
+            }
+            @include media-breakpoint-up (lg) {
+                font-size: 0.75rem;
+                line-height: 1.25;
+            }
+            @include media-breakpoint-up (xl) {
+                font-size: 0.875rem;
+                line-height: 1.75;
+            }
+            @include media-breakpoint-up (xxl) {
+                font-size: 1.0625rem;
+                line-height: 2.1;
+            }
+        }
+        .banner-sub-price {
+            margin-bottom: 0;
+            font-size: 0.75rem;
+            line-height: 0.9;
+            @include media-breakpoint-up (md) {
+                font-size: 0.865rem;
+                line-height: 1;
+            }
+            @include media-breakpoint-up (lg) {
+                font-size: 1rem;
+                display: block;
+                line-height: 1.25;
+            }
+            @include media-breakpoint-up (xl) {
+                font-size: 1.25rem;
+                line-height: 1.75;
+            }
+            @include media-breakpoint-up (xxl) {
+                font-size: 1.5rem;
+                line-height: 2.1;
+            }
+        }
+        .banner-sub-icon {
+            width: 1rem;
+            line-height: 0.9;
+            @include media-breakpoint-up (md) {
+                width: 1.25rem;
+                line-height: 1;
+            }
+            @include media-breakpoint-up (lg) {
+                width: 1.75rem;
+                line-height: 1.25;
+            }
+            @include media-breakpoint-up (xl) {
+                width: 2rem;
+                line-height: 1.75;
+            }
+            @include media-breakpoint-up (xxl) {
+                width: 2.4375rem;
+                line-height: 2.1;
+            }
+        }
+    }
+}
+#indicator {
+    position: absolute;
+    left: 18.5%;
+    bottom: 10%;
+    translate: -50% -50%;
+    ul {
+        display: flex;
+        li {
+            padding: 0 1.5rem;
+        }
+    }
+    .slick-dots li button:before {
+        content: url('../images/icons/slick_dots/dot.png');
+    }
+    .slick-dots li.slick-active button:before {
+        content: url('../images/icons/slick_dots/dot_active.png');
     }
 }

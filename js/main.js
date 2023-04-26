@@ -1,4 +1,13 @@
 $(document).ready(function(){
+    $('.banner').slick({
+        autoplay: false,
+        autoplaySpeed: 2000,
+        speed: 800,
+        dots: true,
+        arrows: false,
+        infinite: true,
+        appendDots: $('#indicator'),
+    });
     $('.logos').slick({
         infinite: false,
         slidesToShow: 5,

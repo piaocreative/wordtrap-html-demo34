@@ -39,8 +39,6 @@ img {
 
 //-------------------- Section ------------------//
 
-.section {
-	position: relative;
-	padding-top: $section-spacer;
-	padding-bottom: $section-spacer;
+section {
+	margin-bottom: $section-spacer;
 }
