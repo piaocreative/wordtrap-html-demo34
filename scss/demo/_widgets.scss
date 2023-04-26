@@ -18,14 +18,15 @@
 
 .widget {
 	margin-bottom: 1.875rem;
-
 	.widget-title {
 		font-size: $font-size-base;
 		font-family: $body-font;
 		font-weight: 600;
 		margin-bottom: 0.85rem;
 	}
-
+	.widget-content {
+		color: #969696!important;
+	}
 	&.widget-contact {
 		margin-top: -0.6rem;
 	}
@@ -34,28 +35,25 @@
 	&.widget-social {
 		.social-icons {
 			li {
-				padding: 0 0.25rem;
-
+				padding: 0 0.35rem;
 				&:last-child {
 					padding-right: 0;
 				}
-		
 				a {
-					background-color: #2e2e2e;					
+					background-color: #2e2e2e;
 					color: #b7b7b7;
-					display: inline-block;
-					line-height: 1.8125rem;
-					width: 1.8125rem;
-					height: 1.8125rem;		
+					display: flex;
+					align-items: center;
+					justify-content: center;
+					width: 2.7rem;
+					height: 2.7rem;
 					vertical-align: middle;
 					text-align: center;
 					transition: all 0.3s ease-in-out;
-		
 					&:hover {
 						background-color: $theme-color;
 						color: $white;
 					}
-		
 					i {
 						vertical-align: top;
 						line-height: 1.8125rem;
@@ -77,7 +75,6 @@
 						color: $primary;
 					}
 				}
-
 				i {
 					color: $primary;
 					display: inline-block;
@@ -95,7 +92,7 @@
 		ul {
 			li {
 				a {
-					color: $body-color;
+					color: #969696;
 					font-weight: 300;
 					font-size: 1rem;
 					transition: all 0.3s ease-in-out;
@@ -115,13 +112,13 @@
 
 			.payment-icon {
 				text-align: center;
-				margin-left: 0.4rem;
-				width: 4rem;
+				margin-left: 0.65rem;
+				width: 4.85rem;
 				padding: 0.125rem 0;
 				background-color: #2e2e2e;
-				
 				img {
 					width: 3rem;
+					padding: 0.35rem 0;
 				}
 			}
 		}
