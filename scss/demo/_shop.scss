@@ -274,6 +274,9 @@
 	}
 
 	&.ads3 {
-		padding: 10rem 4rem;
+		padding: 2rem;
+		@include media-breakpoint-up (md) {
+			padding: 7rem 5rem 5rem 5rem;
+		}
 	}
 }

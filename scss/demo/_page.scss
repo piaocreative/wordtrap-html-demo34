@@ -20,7 +20,6 @@
 .portfolio {
     display: block;
 	overflow: hidden;
-
 	img {
 		@include transition(all 0.5s ease-in-out);
 
@@ -41,7 +40,7 @@
 
 // Choose
 .choose-title {
-	padding: 3rem 5.2rem;
+	padding: 4rem 5.5rem;
 	h3 {
 		color: #282828;
 		font-size: $h3-font-size;
@@ -53,6 +52,7 @@
 .choose-content {
 	padding-left: 2.34375rem;
 	padding-right: 2.4rem;
+	font-family: $body-font;
 	@media (min-width: 1600px) {
 		padding-right: 8rem;
 	}

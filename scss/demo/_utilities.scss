@@ -44,4 +44,68 @@ section {
 	&#our-desingers {
 		padding: $section-spacer 0;
 	}
+	&#portfolio {
+		margin-bottom: 0;
+	}
+	&#choose {
+		margin-bottom: 0;
+		margin-top: -1.3px;
+	}
+}
+
+//-------------------- Grid ------------------//
+
+.row-add {
+	display: flex;
+	flex-wrap: wrap;
+	.col-add-1 {
+		width: 100%;
+		display: flex;
+		flex-wrap: wrap;
+		@include media-breakpoint-up (xl) {
+			width: 51.45%;
+		}
+	}
+	.col-add-2 {
+		width: 100%;
+		display: flex;
+		flex-wrap: wrap;
+		@include media-breakpoint-up (xl) {
+			width: 48.55%;
+		}
+	}
+	.col-add-3 {
+		width: 100%;
+		display: block;
+		flex-wrap: wrap;
+		@include media-breakpoint-up (xl) {
+			width: 37.95%;
+			display: flex;
+		}
+	}
+	.col-add-4 {
+		width: 100%;
+		display: flex;
+		flex-wrap: wrap;
+		@include media-breakpoint-up (xl) {
+			width: 62.05%;
+		}
+		.ads {
+			.ads-body {
+				h2 {
+					font-size: 3rem;
+				}
+				h4 {
+					font-family: $body-font;
+					font-size: 1.5rem;
+				}
+				a {
+					font-family: $body-font;
+				}
+				div {
+					margin-top: 13rem;
+				}
+			}
+		}
+	}
 }

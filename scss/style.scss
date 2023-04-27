@@ -31,15 +31,14 @@
     @import "demo/banner";
     @import "demo/blog";
     @import "demo/shop";
-    @import "demo/portfolio";
 
 
     // Footer
     @import "demo/footer";
 
 
-    // Page Title
-    @import "demo/pagetitle";
+    // Page
+    @import "demo/page";
 
 
     // Form
@@ -55,6 +54,7 @@
 
 
     // Shortcodes
+    @import "demo/shortcodes/pagetitle";
     @import "demo/shortcodes/feature-box";
     @import "demo/shortcodes/headings";
     @import "demo/shortcodes/logos";

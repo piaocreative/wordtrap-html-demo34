@@ -9726,14 +9726,6 @@ textarea.form-control-lg {
   -----------------------------------------------------------------*/
   /* ----------------------------------------------------------------
 
-  	portfolio.scss
-
-  -----------------------------------------------------------------*/
-  /* ----------------------------------------------------------------
-  	Portfolio
-  -----------------------------------------------------------------*/
-  /* ----------------------------------------------------------------
-
   	footer.scss
 
   -----------------------------------------------------------------*/
@@ -9745,14 +9737,41 @@ textarea.form-control-lg {
   -----------------------------------------------------------------*/
   /* ----------------------------------------------------------------
 
-  	pagetitle.scss
+  	page.scss
 
   -----------------------------------------------------------------*/
   /* ----------------------------------------------------------------
-  	Page Title
+  	Page Styles
   -----------------------------------------------------------------*/
   /* ----------------------------------------------------------------
-  	Add here styles for page title. Thanks!
+  	Add here page styles for demo. Thanks!
+  -----------------------------------------------------------------*/
+  /* ----------------------------------------------------------------
+  	Team Member Page
+  -----------------------------------------------------------------*/
+  /* ----------------------------------------------------------------
+  	Single Member Page
+  -----------------------------------------------------------------*/
+  /* ----------------------------------------------------------------
+  	Blog Page
+  -----------------------------------------------------------------*/
+  /* ----------------------------------------------------------------
+  	Shope Page
+  -----------------------------------------------------------------*/
+  /* ----------------------------------------------------------------
+  	Sidebar
+  -----------------------------------------------------------------*/
+  /* ----------------------------------------------------------------
+  	Single Product Page
+  -----------------------------------------------------------------*/
+  /* ----------------------------------------------------------------
+  	Cart Page
+  -----------------------------------------------------------------*/
+  /* ----------------------------------------------------------------
+  	Checkout Page
+  -----------------------------------------------------------------*/
+  /* ----------------------------------------------------------------
+  	Wishlist Page
   -----------------------------------------------------------------*/
   /*-----------------------------------------------------------------------------------
 
@@ -9776,6 +9795,17 @@ textarea.form-control-lg {
   /*-----------------------------------------------------------------------------------
   	utilities.scss
   -----------------------------------------------------------------------------------*/
+  /* ----------------------------------------------------------------
+
+  	pagetitle.scss
+
+  -----------------------------------------------------------------*/
+  /* ----------------------------------------------------------------
+  	Page Title
+  -----------------------------------------------------------------*/
+  /* ----------------------------------------------------------------
+  	Add here styles for page title. Thanks!
+  -----------------------------------------------------------------*/
   /*-----------------------------------------------------------------------------------
 
   	Shortcodes: feature-box.scss
@@ -10748,30 +10778,11 @@ textarea.form-control-lg {
   padding: 1.25rem 0;
 }
 #demo34 .ads.ads3 {
-  padding: 10rem 4rem;
+  padding: 2rem;
 }
-#demo34 .portfolio {
-  display: block;
-  overflow: hidden;
-}
-#demo34 .portfolio img {
-  transition: all 0.5s ease-in-out;
-}
-#demo34 .portfolio img:hover {
-  -webkit-transform: scale(1.2);
-  -moz-transform: scale(1.2);
-  -ms-transform: scale(1.2);
-  transform: scale(1.2);
-}
-#demo34 .portfolio-margin-bottom {
-  margin-bottom: 3rem;
-}
-#demo34 .portfolio-md-margin-bottom {
-  margin-bottom: 3rem;
-}
-@media (min-width: 992px) {
-  #demo34 .portfolio-md-margin-bottom {
-    margin-bottom: 0;
+@media (min-width: 768px) {
+  #demo34 .ads.ads3 {
+    padding: 7rem 5rem 5rem 5rem;
   }
 }
 #demo34 #footer {
@@ -10821,27 +10832,530 @@ textarea.form-control-lg {
 #demo34 #footer-bottom .copyright {
   font-family: "Montserrat", "Sans Serif";
 }
-#demo34 #page-title {
-  position: relative;
-  padding-top: 3rem;
-}
-#demo34 #page-title .title {
+#demo34 .portfolio {
   display: block;
+  overflow: hidden;
+}
+#demo34 .portfolio img {
+  transition: all 0.5s ease-in-out;
+}
+#demo34 .portfolio img:hover {
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+#demo34 .portfolio-margin-bottom {
+  margin-bottom: 3rem;
+}
+#demo34 .portfolio-md-margin-bottom {
+  margin-bottom: 3rem;
+}
+@media (min-width: 992px) {
+  #demo34 .portfolio-md-margin-bottom {
+    margin-bottom: 0;
+  }
+}
+#demo34 .choose-title {
+  padding: 4rem 5.5rem;
+}
+#demo34 .choose-title h3, #demo34 .choose-title .h3 {
+  color: #282828;
+  font-size: 1.5rem;
+  line-height: 2.3rem;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+#demo34 .choose-content {
+  padding-left: 2.34375rem;
+  padding-right: 2.4rem;
   font-family: "Montserrat", "Sans Serif";
-  font-size: 5rem;
-  font-weight: 800;
-  line-height: 1;
-  margin-bottom: 3.25rem;
-  color: white;
 }
-#demo34 #page-title .sub-title {
-  display: block;
-  font-family: "Mr Dafoe", "Sans Serif";
-  font-size: 3rem;
+@media (min-width: 1600px) {
+  #demo34 .choose-content {
+    padding-right: 8rem;
+  }
+}
+#demo34 .choose-content span {
+  color: #282828;
+  font-size: 0.875rem;
+  line-height: 1.5rem;
   font-weight: 400;
-  line-height: 1;
-  margin-bottom: 0.8rem;
+}
+#demo34 #about-us-banner .col-add-1 {
+  width: 51.25%;
+}
+#demo34 #about-us-banner .col-add-1 .about-bg {
+  margin-left: auto;
+  padding-left: 11.2vw;
+  background-color: #704f40;
+  width: 79%;
+  padding-top: 16vh;
+}
+#demo34 #about-us-banner .col-add-1 .about-bg p {
+  padding-bottom: 3vw;
+}
+#demo34 #about-us-banner .col-add-2 {
+  width: 48.75%;
+  padding-left: 3vw;
+  padding-right: 5vw;
+}
+#demo34 #about-us-banner .col-add-2.about-bg {
+  background-color: #704f40;
+}
+#demo34 #about-us {
+  padding: 0 5vw;
+}
+#demo34 #about-us .col-lg-5 {
+  justify-content: center;
+}
+@media (min-width: 992px) {
+  #demo34 #about-us .col-lg-5 {
+    justify-content: end;
+    padding-left: 10.8vw;
+  }
+}
+@media (min-width: 992px) {
+  #demo34 #about-us .col-lg-7 {
+    padding-left: 5.2vw;
+    padding-right: 10.8vw;
+  }
+}
+@media (min-width: 992px) {
+  #demo34 .contact {
+    padding-left: 6vw;
+  }
+}
+#demo34 .contact .contact-email {
+  font-size: 2.25rem;
+  font-family: "Mr Dafoe", "Sans Serif";
+  font-weight: 400;
   color: #c29a5c;
+  margin-bottom: 0;
+}
+#demo34 .contact .contact-title {
+  font-size: 3.75rem;
+  font-family: "Montserrat", "Sans Serif";
+  font-weight: 800;
+  color: #282828;
+  line-height: 4rem;
+}
+#demo34 .feedback input {
+  background-color: #2e2e2e;
+}
+#demo34 .feedback button {
+  background-color: #2e2e2e;
+}
+#demo34 .feedback button i {
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+}
+#demo34 .error-404 h2, #demo34 .error-404 .h2 {
+  color: #c29a5c;
+  font-size: 3rem;
+  line-height: 4rem;
+  font-family: "Mr Dafoe", "Sans Serif";
+  font-weight: 400;
+  margin-bottom: 0;
+}
+#demo34 .error-404 p {
+  color: #2f363a;
+  font-size: 1.3125rem;
+  font-family: "Segoe UI";
+  font-weight: 300;
+  line-height: 2.5rem;
+  margin-bottom: 0;
+}
+#demo34 .error-404 span {
+  color: #c29a5c;
+  font-size: 1.125rem;
+  font-family: "Segoe UI";
+  font-weight: 300;
+  line-height: 2.5rem;
+}
+#demo34 #blog-page #posts .post {
+  padding: 0.625rem 0;
+}
+#demo34 #blog-page #posts .post .post-thumbnail {
+  border-radius: 0.5rem;
+}
+#demo34 #blog-page #posts .post .post-content {
+  display: block;
+  padding: 0.9375rem 0;
+}
+#demo34 #blog-page #posts .post .post-content .entry-title h4, #demo34 #blog-page #posts .post .post-content .entry-title .h4 {
+  font-family: "Montserrat", "Sans Serif";
+  font-size: 1.1875rem;
+  line-height: 1.875rem;
+}
+#demo34 #blog-page #posts .post .post-content .entry-title h4 a:hover, #demo34 #blog-page #posts .post .post-content .entry-title .h4 a:hover {
+  color: #c29a5c;
+}
+#demo34 #blog-page #posts .post .post-content .entry-meta {
+  font-family: "Montserrat", "Sans Serif";
+  font-size: 0.875rem;
+  width: 100%;
+  margin-right: 0;
+  padding-top: 0;
+  position: initial;
+}
+#demo34 #blog-page #posts .post .post-content .entry-link {
+  color: #c29a5c;
+  font-size: 0.875rem;
+  margin: 0;
+}
+#demo34 #blog-page #posts .post .post-content .entry-categories {
+  font-size: 0.875rem;
+}
+#demo34 #blog-page #posts .post .post-content .entry-categories a {
+  color: #c29a5c;
+  padding-left: 0.625rem;
+}
+#demo34 .team-member {
+  padding: 0.625rem;
+  margin-bottom: 1rem;
+  border-radius: 0.5rem;
+}
+#demo34 .team-member .member-avatar {
+  border-radius: 0.5rem;
+}
+#demo34 .team-member .member-name {
+  font-size: 1.3125rem;
+  margin-bottom: 1rem;
+}
+#demo34 .team-member .member-role {
+  color: #c29a5c;
+  font-size: 0.75rem;
+}
+#demo34 .team-member .member-intro {
+  margin-top: 1.5rem;
+}
+#demo34 .team-member .member-intro .read-more {
+  color: #c29a5c;
+  font-size: 1rem;
+  font-weight: 600;
+}
+#demo34 .team-member .member-intro .read-more::after {
+  position: relative;
+  top: 3px;
+  margin-left: 0.625rem;
+}
+#demo34 .team-member .member-actions {
+  margin-top: 1.875rem;
+}
+#demo34 .team-member .member-actions .follow-me span {
+  margin-right: 1.125rem;
+}
+#demo34 .team-member .member-details {
+  padding: 0 0 3rem 3rem;
+}
+#demo34 .team-member {
+  padding: 0;
+}
+#demo34 .team-member .member-details {
+  padding: 0 3rem 3rem 3rem;
+}
+#demo34 #member-services .member-service {
+  padding-left: 2.25rem;
+  position: relative;
+}
+#demo34 #member-services .member-service::before {
+  content: "";
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: block;
+  width: 1rem;
+  height: 0.8125rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+#demo34 #member-services .member-service h3, #demo34 #member-services .member-service .h3 {
+  font-family: "Montserrat", "Sans Serif";
+  font-size: 1rem;
+  margin-bottom: 1.375rem;
+}
+#demo34 #member-portfolios .member-portfolio {
+  margin-bottom: 1.875rem;
+}
+#demo34 #member-portfolios .member-portfolio img {
+  margin-bottom: 1.5rem;
+  border-radius: 0.5rem;
+}
+#demo34 #member-portfolios .member-portfolio h3, #demo34 #member-portfolios .member-portfolio .h3 {
+  font-family: "Montserrat", "Sans Serif";
+  font-size: 1rem;
+  margin-bottom: 0;
+}
+#demo34 #blog-page #posts .post {
+  padding: 0.625rem 0;
+}
+#demo34 #blog-page #posts .post .post-thumbnail {
+  border-radius: 0.5rem;
+}
+#demo34 #blog-page #posts .post .post-content {
+  display: block;
+  padding: 0.9375rem 0;
+}
+#demo34 #blog-page #posts .post .post-content .entry-title h4, #demo34 #blog-page #posts .post .post-content .entry-title .h4 {
+  font-family: "Montserrat", "Sans Serif";
+  font-size: 1.1875rem;
+  line-height: 1.875rem;
+}
+#demo34 #blog-page #posts .post .post-content .entry-title h4 a:hover, #demo34 #blog-page #posts .post .post-content .entry-title .h4 a:hover {
+  color: #c29a5c;
+}
+#demo34 #blog-page #posts .post .post-content .entry-meta {
+  font-family: "Montserrat", "Sans Serif";
+  font-size: 0.875rem;
+  width: 100%;
+  margin-right: 0;
+  padding-top: 0;
+  position: initial;
+}
+#demo34 #blog-page #posts .post .post-content .entry-link {
+  color: #c29a5c;
+  font-size: 0.875rem;
+  margin: 0;
+}
+#demo34 #blog-page #posts .post .post-content .entry-categories {
+  font-size: 0.875rem;
+}
+#demo34 #blog-page #posts .post .post-content .entry-categories a {
+  color: #c29a5c;
+  padding-left: 0.625rem;
+}
+#demo34 #shop-page .sidebar .widget.featured-products .product .product-image {
+  border-radius: 0.5rem;
+}
+@media (max-width: 991.98px) {
+  #demo34 .sidebar {
+    margin-top: 1.875rem;
+  }
+}
+#demo34 .sidebar .widget {
+  margin-bottom: 1.875rem;
+}
+#demo34 #single-product-page .product-thumbnail {
+  position: relative;
+}
+#demo34 #single-product-page .product-thumbnail .product-gallery {
+  position: absolute;
+  left: 0;
+  top: 1.25rem;
+  z-index: 1;
+}
+#demo34 #single-product-page .product-thumbnail .product-gallery li {
+  border-left: 5px solid transparent;
+  margin-bottom: 0.625rem;
+  padding-left: 0.75rem;
+}
+#demo34 #single-product-page .product-thumbnail .product-gallery li > a {
+  background-color: #fff;
+  display: block;
+  width: 5.625rem;
+  height: 5.625rem;
+  overflow: hidden;
+}
+#demo34 #single-product-page .product-thumbnail .product-gallery li:hover, #demo34 #single-product-page .product-thumbnail .product-gallery li.active {
+  border-color: #c29a5c;
+}
+#demo34 #single-product-page .product-summary {
+  text-align: left;
+}
+#demo34 #single-product-page .product.single-product .onsale {
+  top: 0;
+  right: 1.875rem;
+  bottom: initial;
+}
+#demo34 #single-product-page .product.single-product .product-details {
+  padding: 0;
+}
+@media (max-width: 991.98px) {
+  #demo34 #single-product-page .product.single-product .product-details {
+    padding-top: 2.25rem;
+  }
+}
+#demo34 #single-product-page .product.single-product .product-title {
+  color: #7d7b78;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+#demo34 #single-product-page .product.single-product .product-rating {
+  margin-top: 0;
+  display: inline-block;
+}
+#demo34 #single-product-page .product.single-product .product-rating i {
+  color: #c29a5c;
+}
+#demo34 #single-product-page .product.single-product .product-price {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  justify-content: flex-start;
+}
+#demo34 #single-product-page .product.single-product .product-meta span {
+  display: block;
+}
+#demo34 #single-product-page .product.single-product .product-meta span a {
+  font-weight: 600;
+}
+#demo34 #single-product-page .product.single-product form.cart {
+  display: flex;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+#demo34 #single-product-page .product.single-product form.cart input[type=submit] {
+  height: 3rem;
+  line-height: 3rem;
+  padding: 0 1.875rem;
+}
+#demo34 #single-product-page .product-more-info .tab-content {
+  margin-top: 1.5rem;
+}
+#demo34 #cart-page .cart-form .shop-table tfoot td {
+  padding: 1.25rem 0;
+  border-bottom: none;
+}
+#demo34 #cart-page .cart-form .shop-table .cart-item .product-thumbnail {
+  width: 8.25rem;
+}
+#demo34 #cart-page .cart-form .shop-table .cart-item .product-thumbnail img {
+  width: 6.25rem;
+  height: auto;
+  min-width: 6.25rem;
+}
+#demo34 #cart-page .cart-form .shop-table .cart-item .product-name a {
+  font-size: 1rem;
+  font-weight: 600;
+}
+#demo34 #cart-page .cart-form .shop-table .cart-item .product-name a.product-wishlist, #demo34 #cart-page .cart-form .shop-table .cart-item .product-name a.product-delete {
+  color: #c29a5c;
+  font-size: 0.8125rem;
+  margin-right: 1.25rem;
+}
+#demo34 #cart-page .cart-form .shop-table .cart-item .product-subtotal {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+@media (max-width: 767.98px) {
+  #demo34 #cart-page .cart-form .shop-table .actions .form-control,
+  #demo34 #cart-page .cart-form .shop-table .actions .btn {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+}
+@media (min-width: 992px) {
+  #demo34 #cart-page .cart-totals {
+    padding: 0 2.375rem;
+  }
+}
+#demo34 #cart-page .cart-totals .shop-table {
+  font-size: 0.75rem;
+}
+#demo34 #cart-page .cart-totals .shop-table td, #demo34 #cart-page .cart-totals .shop-table th {
+  border-bottom-width: 1px;
+  border-color: #f3eee8;
+  padding: 1rem 0;
+  vertical-align: middle;
+}
+#demo34 #cart-page .cart-totals .shop-table th {
+  font-weight: 600;
+  text-transform: uppercase;
+}
+#demo34 #cart-page .cart-totals .shop-table td {
+  text-align: right;
+}
+#demo34 #cart-page .cart-totals .shop-table .order-total td {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+#demo34 #cart-page .cart-totals .shop-table .shipping td {
+  text-align: left;
+}
+#demo34 #cart-page .cart-totals .shop-table .shipping td p {
+  font-weight: 600;
+}
+@media (max-width: 767.98px) {
+  #demo34 #cart-page .cart-totals .btn {
+    width: 100%;
+  }
+}
+#demo34 #checkout-page .checkout {
+  padding: 2.5rem 0;
+}
+#demo34 #checkout-page .order-details {
+  font-size: 0.75rem;
+  padding: 2.5rem 0;
+}
+#demo34 #checkout-page .order-details .shop-table td, #demo34 #checkout-page .order-details .shop-table th {
+  border-color: #e9ecef;
+  border-bottom-width: 1px;
+  padding: 1rem 0;
+  vertical-align: middle;
+}
+#demo34 #checkout-page .order-details .shop-table .product-total {
+  text-align: right;
+}
+#demo34 #checkout-page .order-details .shop-table thead th {
+  font-weight: 600;
+  text-transform: uppercase;
+}
+#demo34 #checkout-page .order-details .shop-table tfoot .cart-subtotal th,
+#demo34 #checkout-page .order-details .shop-table tfoot .order-total th {
+  font-weight: 600;
+  text-transform: uppercase;
+}
+#demo34 #checkout-page .order-details .shop-table tfoot .cart-subtotal td,
+#demo34 #checkout-page .order-details .shop-table tfoot .order-total td {
+  text-align: right;
+}
+#demo34 #checkout-page .order-details .shop-table tfoot .order-total td {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+#demo34 #checkout-page .order-details .shop-table .shipping td {
+  text-align: left;
+}
+#demo34 #checkout-page .order-details .shop-table .shipping td p {
+  font-weight: 600;
+}
+#demo34 #checkout-page .order-details .shop-table .shipping .shipping-destination input {
+  background-color: #f3eee8;
+}
+#demo34 #checkout-page .order-details .checkout-payment p {
+  font-weight: 600;
+}
+#demo34 #wishlist-page .shop-table .wishlist-item .product-thumbnail {
+  width: 8.25rem;
+}
+#demo34 #wishlist-page .shop-table .wishlist-item .product-thumbnail img {
+  width: 6.25rem;
+  height: auto;
+  min-width: 6.25rem;
+}
+#demo34 #wishlist-page .shop-table .wishlist-item .product-name a {
+  font-size: 1rem;
+  font-weight: 600;
+}
+#demo34 #wishlist-page .shop-table .wishlist-item .product-name a.product-delete {
+  color: #c29a5c;
+  font-size: 0.8125rem;
+  margin-right: 1.25rem;
+}
+@media (max-width: 991.98px) {
+  #demo34 #wishlist-page .shop-table .wishlist-item .product-actions .btn {
+    width: 100%;
+  }
+}
+#demo34 #wishlist-page .shop-table .wishlist-item .product-quantity .quantity .input-group-prepend {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+#demo34 #wishlist-page .shop-table .wishlist-item .product-quantity .quantity .input-group-prepend p {
+  margin: 0;
+  padding: 5px;
 }
 #demo34 textarea {
   resize: none;
@@ -10973,6 +11487,93 @@ textarea.form-control-lg {
 }
 #demo34 section#our-desingers {
   padding: 6.25rem 0;
+}
+#demo34 section#portfolio {
+  margin-bottom: 0;
+}
+#demo34 section#choose {
+  margin-bottom: 0;
+  margin-top: -1.3px;
+}
+#demo34 .row-add {
+  display: flex;
+  flex-wrap: wrap;
+}
+#demo34 .row-add .col-add-1 {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+@media (min-width: 1200px) {
+  #demo34 .row-add .col-add-1 {
+    width: 51.45%;
+  }
+}
+#demo34 .row-add .col-add-2 {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+@media (min-width: 1200px) {
+  #demo34 .row-add .col-add-2 {
+    width: 48.55%;
+  }
+}
+#demo34 .row-add .col-add-3 {
+  width: 100%;
+  display: block;
+  flex-wrap: wrap;
+}
+@media (min-width: 1200px) {
+  #demo34 .row-add .col-add-3 {
+    width: 37.95%;
+    display: flex;
+  }
+}
+#demo34 .row-add .col-add-4 {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+@media (min-width: 1200px) {
+  #demo34 .row-add .col-add-4 {
+    width: 62.05%;
+  }
+}
+#demo34 .row-add .col-add-4 .ads .ads-body h2, #demo34 .row-add .col-add-4 .ads .ads-body .h2 {
+  font-size: 3rem;
+}
+#demo34 .row-add .col-add-4 .ads .ads-body h4, #demo34 .row-add .col-add-4 .ads .ads-body .h4 {
+  font-family: "Montserrat", "Sans Serif";
+  font-size: 1.5rem;
+}
+#demo34 .row-add .col-add-4 .ads .ads-body a {
+  font-family: "Montserrat", "Sans Serif";
+}
+#demo34 .row-add .col-add-4 .ads .ads-body div {
+  margin-top: 13rem;
+}
+#demo34 #page-title {
+  position: relative;
+  padding-top: 3rem;
+}
+#demo34 #page-title .title {
+  display: block;
+  font-family: "Montserrat", "Sans Serif";
+  font-size: 5rem;
+  font-weight: 800;
+  line-height: 1;
+  margin-bottom: 3.25rem;
+  color: white;
+}
+#demo34 #page-title .sub-title {
+  display: block;
+  font-family: "Mr Dafoe", "Sans Serif";
+  font-size: 3rem;
+  font-weight: 400;
+  line-height: 1;
+  margin-bottom: 0.8rem;
+  color: #c29a5c;
 }
 #demo34 .fbox {
   position: relative;
@@ -11133,31 +11734,6 @@ textarea.form-control-lg {
   font-family: "Segoe UI";
   font-weight: 300;
   line-height: 2.5rem;
-}
-#demo34 .choose-title {
-  padding: 3rem 5rem;
-}
-#demo34 .choose-title h3, #demo34 .choose-title .h3 {
-  color: #282828;
-  font-size: 1.5rem;
-  line-height: 2.3rem;
-  font-weight: 700;
-  margin-bottom: 0;
-}
-#demo34 .choose-content {
-  padding-left: 2.34375rem;
-  padding-right: 2.4rem;
-}
-@media (min-width: 1600px) {
-  #demo34 .choose-content {
-    padding-right: 8rem;
-  }
-}
-#demo34 .choose-content span {
-  color: #282828;
-  font-size: 0.875rem;
-  line-height: 1.5rem;
-  font-weight: 400;
 }
 
 /*# sourceMappingURL=style.css.map */

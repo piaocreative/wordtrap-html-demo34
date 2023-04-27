@@ -76,31 +76,3 @@
 		line-height: 2.5rem;
 	}
 }
-
-.choose-title {
-	padding: 3rem 5rem;
-
-	h3 {
-		color: #282828;
-		font-size: $h3-font-size;
-		line-height: 2.3rem;
-		font-weight: 700;
-		margin-bottom: 0;
-	}
-}
-
-.choose-content {
-	padding-left: 2.34375rem;
-	padding-right: 2.4rem;
-	
-	@media (min-width: 1600px) {
-		padding-right: 8rem;
-	}
-
-	span {
-		color: #282828;
-		font-size: $h5-font-size;
-		line-height: 1.5rem;
-		font-weight: 400;
-	}
-}
