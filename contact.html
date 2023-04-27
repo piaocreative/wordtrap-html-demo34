@@ -1,371 +1,232 @@
 <!doctype html>
 <html dir="ltr" lang="en-US">
 
-<head>
+    <head>
 
-    <!-- Meat Tags
+        <!-- Meat Tags
+        ============================================= -->
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="JohnPiao" />
+
+        <!-- Fonts
+        ============================================= -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Mr+Dafoe&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+        <!-- Fontawesome
+        ============================================= -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" type="text/css" />
+
+        <!-- Slick
+        ============================================= -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <!-- Stylesheets
+        ============================================= -->
+        <link rel="stylesheet" href="css/style.css" type="text/css" />
+
+        <!-- Document Title
+        ============================================= -->
+        <title>Demo34 | Wordtrap</title>
+
+    </head>
+
+    <body id="demo34">
+
+    <!-- Document Wrapper
     ============================================= -->
-    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="author" content="JohnPiao" />
+    <div id="wrapper" class="clearfix">
 
-    <!-- Fonts
-    ============================================= -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Mr+Dafoe&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <!-- Header
+        ============================================= -->
+        <header id="header" class="transparent-header">
 
-    <!-- Fontawesome
-    ============================================= -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" type="text/css" />
+            <div id="header-wrap">
 
-    <!-- Slick
-    ============================================= -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+                <nav class="navbar navbar-expand-xl navbar-light">
 
-    <!-- Stylesheets
-    ============================================= -->
-    <link rel="stylesheet" href="css/style.css" type="text/css" />
+                    <div class="container-fluid px-0 g-0">
 
-    <!-- Document Title
-    ============================================= -->
-    <title>Demo34 | Wordtrap</title>
-
-</head>
-
-<body id="demo34">
-
-<!-- Document Wrapper
-============================================= -->
-<div id="wrapper" class="clearfix">
-
-    <!-- Header
-    ============================================= -->
-    <header id="header" class="transparent-header">
-
-        <div id="header-wrap">
-
-            <nav class="navbar navbar-expand-xl navbar-light">
-
-                <div class="container-fluid px-0 g-0">
-
-                    <!-- Logo
-                    ============================================= -->
-                    <a href="index.html" class="navbar-brand" data-dark-logo="images/logo.png">
-                        <img src="images/logo.png" alt="Saler Logo">
-                    </a>
-
-                    <!-- Navbar Toggler
-                    ============================================= -->
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-
-                    <!-- Navbar Collapse
-                    ============================================= -->
-                    <div id="navbarCollapse" class="collapse navbar-collapse">
-
-                        <!-- Top Links
+                        <!-- Logo
                         ============================================= -->
-                        <div id="top-links" class="me-auto">
-                            <ul class="nav navbar-nav">
-                                <li class="nav-item dropdown">
-                                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">USD</a>
-                                    <ul class="dropdown-menu">
-                                        <li>
-                                            <a href="#" class="dropdown-item">EUR</a>
-                                        </li>
-                                        <li>
-                                            <a href="#" class="dropdown-item">AUD</a>
-                                        </li>
-                                        <li>
-                                            <a href="#" class="dropdown-item">GBP</a>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li class="nav-item dropdown">
-                                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">ENG</a>
-                                    <ul class="dropdown-menu">
-                                        <li>
-                                            <a href="#" class="dropdown-item">
-                                                <img src="images/icons/flags/french.png" alt="French">
-                                                FR
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#" class="dropdown-item">
-                                                <img src="images/icons/flags/italian.png" alt="Italian">
-                                                IT
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#" class="dropdown-item">
-                                                <img src="images/icons/flags/german.png" alt="German">
-                                                DE
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </div><!-- .top-links -->
+                        <a href="index.html" class="navbar-brand" data-dark-logo="images/logo.png">
+                            <img src="images/logo.png" alt="Saler Logo">
+                        </a>
 
-                        <!-- Primary Navigation
+                        <!-- Navbar Toggler
+                        ============================================= -->
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <!-- Navbar Collapse
+                        ============================================= -->
+                        <div id="navbarCollapse" class="collapse navbar-collapse">
+
+                            <!-- Top Links
                             ============================================= -->
-                            <nav id="primary-menu">
-
-                                <ul class="navbar-nav">
-                                    <li class="nav-item">
-                                        <a href="index.html" class="nav-link">Home</a>
-                                    </li>
+                            <div id="top-links" class="me-auto">
+                                <ul class="nav navbar-nav">
                                     <li class="nav-item dropdown">
-                                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">eCommerce</a>
+                                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">USD</a>
                                         <ul class="dropdown-menu">
                                             <li>
-                                                <a href="shop.html" class="dropdown-item">Shop</a>
+                                                <a href="#" class="dropdown-item">EUR</a>
                                             </li>
                                             <li>
-                                                <a href="product.html" class="dropdown-item">Single Product</a>
+                                                <a href="#" class="dropdown-item">AUD</a>
                                             </li>
                                             <li>
-                                                <a href="cart.html" class="dropdown-item">Cart</a>
-                                            </li>
-                                            <li>
-                                                <a href="checkout.html" class="dropdown-item">Checkout</a>
-                                            </li>
-                                            <li>
-                                                <a href="wishlist.html" class="dropdown-item">My Wishlist</a>
+                                                <a href="#" class="dropdown-item">GBP</a>
                                             </li>
                                         </ul>
                                     </li>
                                     <li class="nav-item dropdown">
-                                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">Pages</a>
+                                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">ENG</a>
                                         <ul class="dropdown-menu">
                                             <li>
-                                                <a href="about.html" class="dropdown-item">About</a>
+                                                <a href="#" class="dropdown-item">
+                                                    <img src="images/icons/flags/french.png" alt="French">
+                                                    FR
+                                                </a>
                                             </li>
                                             <li>
-                                                <a href="faqs.html" class="dropdown-item">FAQs</a>
+                                                <a href="#" class="dropdown-item">
+                                                    <img src="images/icons/flags/italian.png" alt="Italian">
+                                                    IT
+                                                </a>
                                             </li>
                                             <li>
-                                                <a href="team.html" class="dropdown-item">Meet the team</a>
-                                            </li>
-                                            <li>
-                                                <a href="member.html" class="dropdown-item">Team Member</a>
-                                            </li>
-                                            <li>
-                                                <a href="404.html" class="dropdown-item">404</a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="contact.html" class="nav-link current">Contact Us</a>
-                                    </li>
-                                    <li class="nav-item dropdown">
-                                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">Blog</a>
-                                        <ul class="dropdown-menu">
-                                            <li>
-                                                <a href="blog.html" class="dropdown-item">Archive</a>
-                                            </li>
-                                            <li>
-                                                <a href="single-post.html" class="dropdown-item">Single post</a>
+                                                <a href="#" class="dropdown-item">
+                                                    <img src="images/icons/flags/german.png" alt="German">
+                                                    DE
+                                                </a>
                                             </li>
                                         </ul>
                                     </li>
                                 </ul>
+                            </div><!-- .top-links -->
 
-                            </nav><!-- #primary-menu -->
+                            <!-- Primary Navigation
+                                ============================================= -->
+                                <nav id="primary-menu">
 
-                        <!-- Top Buttons
-                        ============================================= -->
-                        <div id="top-btns">
+                                    <ul class="navbar-nav">
+                                        <li class="nav-item">
+                                            <a href="index.html" class="nav-link">Home</a>
+                                        </li>
+                                        <li class="nav-item dropdown">
+                                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">eCommerce</a>
+                                            <ul class="dropdown-menu">
+                                                <li>
+                                                    <a href="shop.html" class="dropdown-item">Shop</a>
+                                                </li>
+                                                <li>
+                                                    <a href="product.html" class="dropdown-item">Single Product</a>
+                                                </li>
+                                                <li>
+                                                    <a href="cart.html" class="dropdown-item">Cart</a>
+                                                </li>
+                                                <li>
+                                                    <a href="checkout.html" class="dropdown-item">Checkout</a>
+                                                </li>
+                                                <li>
+                                                    <a href="wishlist.html" class="dropdown-item">My Wishlist</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="nav-item dropdown">
+                                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">Pages</a>
+                                            <ul class="dropdown-menu">
+                                                <li>
+                                                    <a href="about.html" class="dropdown-item">About</a>
+                                                </li>
+                                                <li>
+                                                    <a href="faqs.html" class="dropdown-item">FAQs</a>
+                                                </li>
+                                                <li>
+                                                    <a href="team.html" class="dropdown-item">Meet the team</a>
+                                                </li>
+                                                <li>
+                                                    <a href="member.html" class="dropdown-item">Team Member</a>
+                                                </li>
+                                                <li>
+                                                    <a href="404.html" class="dropdown-item">404</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="contact.html" class="nav-link current">Contact Us</a>
+                                        </li>
+                                        <li class="nav-item dropdown">
+                                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">Blog</a>
+                                            <ul class="dropdown-menu">
+                                                <li>
+                                                    <a href="blog.html" class="dropdown-item">Archive</a>
+                                                </li>
+                                                <li>
+                                                    <a href="single-post.html" class="dropdown-item">Single post</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
 
-                            <ul class="navbar-nav flex-row">
-                                <li class="nav-item">
-                                    <a href="#" class="nav-link">
-                                        <img src="images/icons/extra/heart.png" alt="heart">
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="#" class="nav-link">
-                                        <span data-cart-items="2">
-                                            <img src="images/icons/extra/shopping-cart.png" alt="shopping-cart">
-                                        </span>
-                                    </a>
-                                </li>
-                            </ul>
+                                </nav><!-- #primary-menu -->
 
-                        </div><!-- #top-btns -->
+                            <!-- Top Buttons
+                            ============================================= -->
+                            <div id="top-btns">
 
-                    </div><!-- Navbar Collapse -->
+                                <ul class="navbar-nav flex-row">
+                                    <li class="nav-item">
+                                        <a href="#" class="nav-link">
+                                            <img src="images/icons/extra/heart.png" alt="heart">
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#" class="nav-link">
+                                            <span data-cart-items="2">
+                                                <img src="images/icons/extra/shopping-cart.png" alt="shopping-cart">
+                                            </span>
+                                        </a>
+                                    </li>
+                                </ul>
 
-                </div>
+                            </div><!-- #top-btns -->
 
-            </nav>
+                        </div><!-- Navbar Collapse -->
 
-        </div><!-- #header-wrap -->
-
-    </header><!-- #header -->
-
-        <!-- Content
-		============================================= -->
-		<section id="content">
-
-            <div class="content-wrap">           
-                
-                <!-- Banner
-                ============================================= -->
-                <!-- <div class="container">
-
-                    <div id="page-title">
-                        <h1 class="title">Contact Us</h1>
                     </div>
 
-                    <div class="section pt-0">
+                </nav>
 
-                        <div class="row g-0">
+            </div><!-- #header-wrap -->
 
-                            <div class="col-lg-6">
-    
-                                <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget leo at velit imperdiet varius. In eu ipsum vitae velit congue iaculis vitae at risus. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-    
-                                <h5 class="text-uppercase body-font pt-4">Our Office</h5>
-    
-                                <div class="icon-box">
-                                    <div class="icon-wrapper">
-                                        <i class="fas fa-map-marker-alt"></i>
-                                    </div>
-                                    <div class="icon-header">
-                                        <h4 class="body-font text-body">Address:</h4>
-                                        <span class="text-secondary">1234 Street Name, City Name, United States</span>
-                                    </div>
-                                </div>
-    
-                                <div class="icon-box">
-                                    <div class="icon-wrapper">
-                                        <i class="fa fa-phone"></i>
-                                    </div>
-                                    <div class="icon-header">
-                                        <h4 class="body-font text-body">Phone:</h4>
-                                        <span class="text-secondary">(123) 456-789</span>
-                                    </div>
-                                </div>
-    
-                                <div class="icon-box">
-                                    <div class="icon-wrapper">
-                                        <i class="fas fa-map-marker-alt"></i>
-                                    </div>
-                                    <div class="icon-header">
-                                        <h4 class="body-font text-body">Email:</h4>
-                                        <span class="text-secondary">mail@example.com</span>
-                                    </div>
-                                </div>
-    
-                                <h5 class="text-uppercase body-font pt-4">Business Hours</h5>
-    
-                                <div class="icon-box">
-                                    <div class="icon-wrapper">
-                                        <i class="far fa-clock"></i>
-                                    </div>
-                                    <div class="icon-header">
-                                        <h4 class="body-font text-body">Monday - Friday</h4>
-                                        <span class="text-secondary">9am to 5pm</span>
-                                    </div>
-                                </div>
-    
-                                <div class="icon-box">
-                                    <div class="icon-wrapper">
-                                        <i class="far fa-clock"></i>
-                                    </div>
-                                    <div class="icon-header">
-                                        <h4 class="body-font text-body">Saturday</h4>
-                                        <span class="text-secondary">9am to 2pm</span>
-                                    </div>
-                                </div>
-    
-                                <div class="icon-box">
-                                    <div class="icon-wrapper">
-                                        <i class="far fa-clock"></i>
-                                    </div>
-                                    <div class="icon-header">
-                                        <h4 class="body-font text-body">Sunday</h4>
-                                        <span class="text-secondary">Closed</span>
-                                    </div>
-                                </div>
-    
-                            </div>
-    
-                            <div class="col-lg-4 offset-lg-2">
-                                
-                                <form class="contact-form" action="php/contact-form.php" method="POST" novalidate="novalidate">
-                                    @@@@ <div class="contact-form-success alert alert-success d-none mt-4">
-                                        <strong>Success!</strong> Your message has been sent to us.
-                                    </div>
-    
-                                    <div class="contact-form-error alert alert-danger d-none mt-4">
-                                        <strong>Error!</strong> There was an error sending your message.
-                                        <span class="mail-error-message text-1 d-block"></span>
-                                    </div> @@@@
-    
-                                    <div class="mb-3">
-                                        <label class="form-label" for="contactFormName">Your Name</label>
-                                        <div class="required-field">
-                                            <input type="text" value="" class="form-control" name="name" id="contactFormName" required>
-                                        </div>                                        
-                                    </div>									
-                                    <div class="mb-3">
-                                        <label class="form-label" for="contactFormEmail">Your Email Address</label>
-                                        <div class="required-field">
-                                            <input type="email" value="" class="form-control" name="email" id="contactFormEmail" required>
-                                        </div>                                            
-                                    </div>
-                                    <div class="mb-3">
-                                        <label class="form-label" for="contactFormSubject">Subject</label>
-                                        <div class="required-field">
-                                            <input type="text" value="" class="form-control" name="subject" id="contactFormSubject" required>
-                                        </div>                                        
-                                    </div>
-                                    <div class="mb-3">
-                                        <label class="form-label" for="contactFormMsg">Message</label>
-                                        <div class="required-field">
-                                            <textarea maxlength="5000" rows="8" class="form-control" name="message" id="contactFormMsg" required></textarea>
-                                        </div>                                            
-                                    </div>
-                                    <div class="mb-3">
-                                        <input type="submit" value="Send" class="btn btn-primary text-uppercase" data-loading-text="Loading...">
-                                    </div>
-                                </form>
-    
-                            </div>
-    
-                        </div>
+        </header><!-- #header -->
 
-                    </div>                    
+        <!-- Main
+        ============================================= -->
+        <main id="main">
 
-                </div> -->
+            <!-- Contact Us
+            ============================================= -->
+            <section id="contact-us" class="position-relative">
 
-                
-                <!-- Map
-                ============================================= -->
-                <div class="container">
-
-                    <div class="row align-items-center">
-
-                        <div class="col-lg-6">
-
+                <div class="container g-0">
+                    <div class="row align-items-center g-0 px-5 px-xxl-0">
+                        <div class="col-lg-6 g-0 pe-lg-4">
                             <div id="map">
-                                <img src="images/map.png" alt="About Us" class="img-fluid">
+                                <img src="images/pages/contact/map.png" alt="About Us" class="img-fluid pe-lg-1">
                             </div>
-
                         </div>
-
-                        <div class="col-lg-5 offset-lg-1 mt-3 contact">
-
+                        <div class="col-lg-6 mt-3 contact g-0">
                             <h2 class="contact-email">Email us</h2>
-                            <h1 class="body-font fw-bold mb-2">Contact Us</h1>
-
-                            <a href="#" class="icon-box d-flex align-items-center gap-3">
+                            <h1 class="body-font mb-2 lh-1 pb-5">Contact Us</h1>
+                            <a href="#" class="icon-box d-flex align-items-center gap-5 body-font">
                                 <div class="icon-wrapper">
                                     <i class="fas fa-phone-alt"></i>
                                 </div>
@@ -373,8 +234,7 @@
                                     <strong class="fs-3">123-456-7890</strong>
                                 </div>
                             </a>
-
-                            <a href="#" class="icon-box d-flex align-items-center gap-3">
+                            <a href="#" class="icon-box d-flex align-items-center gap-5">
                                 <div class="icon-wrapper">
                                     <i class="far fa-envelope"></i>
                                 </div>
@@ -382,8 +242,7 @@
                                     <span>mail@example.com</span>
                                 </div>
                             </a>
-
-                            <a href="#" class="icon-box d-flex align-items-center gap-3">
+                            <a href="#" class="icon-box d-flex align-items-center gap-5">
                                 <div class="icon-wrapper">
                                     <i class="fas fa-map-marker-alt"></i>
                                 </div>
@@ -391,7 +250,6 @@
                                     <span>New York 5686 Edverano Center</span>
                                 </div>
                             </a>
-
                             <form action="#" class="mt-5">
                                 <div class="row g-3">
                                     <div class="col-md-6">
@@ -417,20 +275,18 @@
                                     </div>
                                 </div>
                             </form>
-
                         </div>
-
                     </div>
-
                 </div>
+                <img class="position-absolute top-50 translate-middle-y menu-icon" src="images/icons/extra/Menu.png" alt="contact-us-menu">
 
-            </div>
+            </section><!-- #contact-us -->
 
-        </section><!-- #content -->
+        </main><!-- #main -->
 
-       <!-- Footer
-		============================================= -->
-		<footer id="footer">
+        <!-- Footer
+        ============================================= -->
+        <footer id="footer">
 
             <!-- Footer Header
             ============================================= -->
@@ -459,7 +315,7 @@
             </div><!-- Footer Header -->
 
             <!-- Footer Main
-		    ============================================= -->
+            ============================================= -->
             <div id="footer-main">
 
                 <div class="container g-0">
@@ -648,19 +504,16 @@
 
     </div>
 
-    <!-- Go To Top
-	============================================= -->
-	<div id="gotoTop" class="icon-angle-up"></div>
-
 
     <!-- External JavaScripts
-	============================================= -->
-    
+    ============================================= -->
+
     <!-- Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
 
     <!-- Footer Scripts
-	============================================= -->
-    
-</body>
+    ============================================= -->
+
+    </body>
+
 </html>

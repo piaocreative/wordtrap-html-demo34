@@ -124,9 +124,17 @@
 
 //-------------------- Contact --------------------//
 
+#contact-us {
+	margin-top: 1.1*$header-height;
+	#map {
+		img {
+			filter: grayscale(1);
+		}
+	}
+}
 .contact {
     @include media-breakpoint-up (lg) {
-        padding-left: 6vw;
+        padding-left: 5.5vw;
     }
 	.contact-email {
 		font-size: 2.25rem;
@@ -154,6 +162,14 @@
 			font-size: 1.25rem;
 			line-height: 1.5rem;
 		}
+	}
+}
+
+.menu-icon {
+	left: 4%;
+	display: none;
+	@media (min-width: 1800px) {
+		display: block;
 	}
 }
 

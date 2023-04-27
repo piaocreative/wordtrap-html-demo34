@@ -10944,9 +10944,15 @@ textarea.form-control-lg {
     padding-right: 10.7vw;
   }
 }
+#demo34 #contact-us {
+  margin-top: 6.4625rem;
+}
+#demo34 #contact-us #map img {
+  filter: grayscale(1);
+}
 @media (min-width: 992px) {
   #demo34 .contact {
-    padding-left: 6vw;
+    padding-left: 5.5vw;
   }
 }
 #demo34 .contact .contact-email {
@@ -10972,6 +10978,15 @@ textarea.form-control-lg {
 #demo34 .feedback button i {
   font-size: 1.25rem;
   line-height: 1.5rem;
+}
+#demo34 .menu-icon {
+  left: 4%;
+  display: none;
+}
+@media (min-width: 1800px) {
+  #demo34 .menu-icon {
+    display: block;
+  }
 }
 #demo34 .error-404 h2, #demo34 .error-404 .h2 {
   color: #c29a5c;
@@ -11511,7 +11526,7 @@ textarea.form-control-lg {
 #demo34 section#our-desingers {
   padding: 6.25rem 0;
 }
-#demo34 section#portfolio {
+#demo34 section#portfolio, #demo34 section#contact-us {
   margin-bottom: 0;
 }
 #demo34 section#choose {
@@ -11664,6 +11679,9 @@ textarea.form-control-lg {
 #demo34 .icon-box {
   margin-bottom: 0.75rem;
   line-height: 1;
+}
+#demo34 .icon-box .icon-wrapper {
+  width: 3%;
 }
 #demo34 .icon-box .icon-wrapper i {
   color: #c29a5c;
