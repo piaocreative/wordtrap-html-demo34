@@ -9,20 +9,22 @@
 	Partners logo Styles
 -----------------------------------------------------------------*/
 
-
+#logos-partners {
+	margin-bottom: 0%;
+}
 .logos {
 	.logo-item {
 		border: 1px solid #eaeaea;
-		max-width: 10.625rem;
+		border-radius: .3125rem;
+		max-width: 13rem;
 		height: 6.25rem;
-		width: 100%;
-		display: flex !important;
-		align-items: center;
+		display: flex!important;
 		justify-content: center;
-
-		img {
-			width: auto;
-			height: auto;
+		align-items: center;
+	};
+	@include media-breakpoint-up (xxl) {
+		.slick-slide.slick-active {
+			width: 258.5px!important;
 		}
 	}
-} 
+};

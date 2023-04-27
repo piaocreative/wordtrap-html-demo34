@@ -10971,6 +10971,9 @@ textarea.form-control-lg {
 #demo34 section {
   margin-bottom: 6.25rem;
 }
+#demo34 section#our-desingers {
+  padding: 6.25rem 0;
+}
 #demo34 .fbox {
   position: relative;
   margin-bottom: 1.875rem;
@@ -11017,18 +11020,22 @@ textarea.form-control-lg {
   line-height: 1;
   margin-bottom: 0;
 }
+#demo34 #logos-partners {
+  margin-bottom: 0%;
+}
 #demo34 .logos .logo-item {
   border: 1px solid #eaeaea;
-  max-width: 10.625rem;
+  border-radius: 0.3125rem;
+  max-width: 13rem;
   height: 6.25rem;
-  width: 100%;
   display: flex !important;
-  align-items: center;
   justify-content: center;
+  align-items: center;
 }
-#demo34 .logos .logo-item img {
-  width: auto;
-  height: auto;
+@media (min-width: 1400px) {
+  #demo34 .logos .slick-slide.slick-active {
+    width: 258.5px !important;
+  }
 }
 #demo34 .icon-box {
   margin-bottom: 0.75rem;
