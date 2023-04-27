@@ -70,14 +70,19 @@
     .col-add-1 {
         width: 51.25%;
         .about-bg {
-            margin-left: auto;
-            padding-left: 11.2vw;
             background-color: #704f40;
-            width: 79%;
-            padding-top: 16vh;
-            p {
-                padding-bottom: 3vw;
-            }
+            width: 100%;
+            padding-top: 25vh;
+			padding-left: 7.5%;
+			@include media-breakpoint-up (lg) {
+				margin-left: auto;
+				padding-left: 11.2vw;
+				width: 79%;
+			}
+			p {
+				padding-bottom: 6vw;
+				margin-bottom: 0;
+			}
         }
     }
     .col-add-2 {
@@ -87,7 +92,18 @@
         &.about-bg {
             background-color: #704f40;
         }
+		img {
+			margin-top: 1.1*$header-height;
+		}
     }
+	.about-menu-icon {
+		left: 4%;
+		width: 39px;
+		display: none;
+		@include media-breakpoint-up (lg) {
+			display: block;
+		}
+	}
 }
 #about-us {
     padding: 0 5vw;
@@ -101,7 +117,7 @@
     .col-lg-7 {
         @include media-breakpoint-up (lg) {
             padding-left: 5.2vw;
-            padding-right: 10.8vw;
+            padding-right: 10.7vw;
         }
     }
 }

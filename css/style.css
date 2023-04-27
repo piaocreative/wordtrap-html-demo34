@@ -10889,14 +10889,21 @@ textarea.form-control-lg {
   width: 51.25%;
 }
 #demo34 #about-us-banner .col-add-1 .about-bg {
-  margin-left: auto;
-  padding-left: 11.2vw;
   background-color: #704f40;
-  width: 79%;
-  padding-top: 16vh;
+  width: 100%;
+  padding-top: 25vh;
+  padding-left: 7.5%;
+}
+@media (min-width: 992px) {
+  #demo34 #about-us-banner .col-add-1 .about-bg {
+    margin-left: auto;
+    padding-left: 11.2vw;
+    width: 79%;
+  }
 }
 #demo34 #about-us-banner .col-add-1 .about-bg p {
-  padding-bottom: 3vw;
+  padding-bottom: 6vw;
+  margin-bottom: 0;
 }
 #demo34 #about-us-banner .col-add-2 {
   width: 48.75%;
@@ -10905,6 +10912,19 @@ textarea.form-control-lg {
 }
 #demo34 #about-us-banner .col-add-2.about-bg {
   background-color: #704f40;
+}
+#demo34 #about-us-banner .col-add-2 img {
+  margin-top: 6.4625rem;
+}
+#demo34 #about-us-banner .about-menu-icon {
+  left: 4%;
+  width: 39px;
+  display: none;
+}
+@media (min-width: 992px) {
+  #demo34 #about-us-banner .about-menu-icon {
+    display: block;
+  }
 }
 #demo34 #about-us {
   padding: 0 5vw;
@@ -10921,7 +10941,7 @@ textarea.form-control-lg {
 @media (min-width: 992px) {
   #demo34 #about-us .col-lg-7 {
     padding-left: 5.2vw;
-    padding-right: 10.8vw;
+    padding-right: 10.7vw;
   }
 }
 @media (min-width: 992px) {
