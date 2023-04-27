@@ -10534,10 +10534,11 @@ textarea.form-control-lg {
 #demo34 .category .category-desc {
   color: white;
   font-size: 1.5rem;
-  font-weight: 700;
+  font-weight: 800;
   margin-bottom: 0;
   position: absolute;
   top: 20%;
+  font-family: "Montserrat", "Sans Serif";
   width: 100%;
   transition: all 0.3s ease-in-out;
   -webkit-transform: translateY(-50%);
@@ -10737,6 +10738,11 @@ textarea.form-control-lg {
 }
 #demo34 .ads.ads1 .ads-body h4, #demo34 .ads.ads1 .ads-body .h4 {
   color: #735244;
+}
+@media (min-width: 1200px) {
+  #demo34 .ads.ads2 {
+    margin-right: 24.9px;
+  }
 }
 #demo34 .ads.ads2 .ads-body {
   padding: 1.25rem 0;

@@ -52,10 +52,11 @@
 	.category-desc {
 		color: white;
 		font-size: $h3-font-size;
-		font-weight: 700;
+		font-weight: 800;
 		margin-bottom: 0;
 		position: absolute;
 		top: 20%;
+		font-family: $body-font;
 		width: 100%;
 		@include transition(all 0.3s ease-in-out);
 		@include translateY(-50%);
@@ -264,6 +265,9 @@
 	}
 
 	&.ads2 {
+		@include media-breakpoint-up (xl) {
+			margin-right: 24.9px;
+		}
 		.ads-body {
 			padding: 1.25rem 0;
 		}
