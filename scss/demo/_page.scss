@@ -175,6 +175,9 @@
 
 //-------------------- Error --------------------//
 
+#error-404 {
+	margin-top: 1.1*$header-height;
+}
 .error-404 {
 	h2 {
 		color: $primary;

@@ -10988,6 +10988,9 @@ textarea.form-control-lg {
     display: block;
   }
 }
+#demo34 #error-404 {
+  margin-top: 6.4625rem;
+}
 #demo34 .error-404 h2, #demo34 .error-404 .h2 {
   color: #c29a5c;
   font-size: 3rem;
@@ -11727,54 +11730,6 @@ textarea.form-control-lg {
 }
 #demo34 .team:hover .team-info {
   opacity: 1;
-}
-#demo34 .contact .contact-email {
-  font-size: 2.25rem;
-  font-family: "Mr Dafoe", "Sans Serif";
-  font-weight: 400;
-  color: #c29a5c;
-  line-height: 4rem;
-  margin-bottom: 0;
-}
-#demo34 .contact .contact-title {
-  font-size: 3.75rem;
-  font-family: "Montserrat", "Sans Serif";
-  font-weight: 800;
-  color: #282828;
-  line-height: 4rem;
-}
-#demo34 .feedback input {
-  background-color: #2e2e2e;
-}
-#demo34 .feedback button {
-  background-color: #2e2e2e;
-}
-#demo34 .feedback button i {
-  font-size: 1.25rem;
-  line-height: 1.5rem;
-}
-#demo34 .error-404 h2, #demo34 .error-404 .h2 {
-  color: #c29a5c;
-  font-size: 3rem;
-  line-height: 4rem;
-  font-family: "Mr Dafoe", "Sans Serif";
-  font-weight: 400;
-  margin-bottom: 0;
-}
-#demo34 .error-404 p {
-  color: #2f363a;
-  font-size: 1.3125rem;
-  font-family: "Segoe UI";
-  font-weight: 300;
-  line-height: 2.5rem;
-  margin-bottom: 0;
-}
-#demo34 .error-404 span {
-  color: #c29a5c;
-  font-size: 1.125rem;
-  font-family: "Segoe UI";
-  font-weight: 300;
-  line-height: 2.5rem;
 }
 
 /*# sourceMappingURL=style.css.map */
