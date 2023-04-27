@@ -1,0 +1,27 @@
+.error-404 {
+	h2 {
+		color: $primary;
+		font-size: 3rem;
+		line-height: 4rem;
+		font-family: $heading-font;
+		font-weight: 400;
+		margin-bottom: 0;
+	}
+	
+	p {
+		color: #2f363a;
+		font-size: 1.3125rem;
+		font-family: 'Segoe UI';
+		font-weight: 300;
+		line-height: 2.5rem;
+		margin-bottom: 0;
+	}
+	
+	span {
+		color: $primary;
+		font-size: 1.125rem;
+		font-family: 'Segoe UI';
+		font-weight: 300;
+		line-height: 2.5rem;
+	}
+}

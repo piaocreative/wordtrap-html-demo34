@@ -1,0 +1,801 @@
+/* ----------------------------------------------------------------
+
+	page.scss
+
+-----------------------------------------------------------------*/
+
+
+/* ----------------------------------------------------------------
+	Page Styles
+-----------------------------------------------------------------*/
+
+
+/* ----------------------------------------------------------------
+	Add here page styles for demo. Thanks!
+-----------------------------------------------------------------*/
+
+//-------------------- Index --------------------//
+
+// portfolio
+.portfolio {
+    display: block;
+	overflow: hidden;
+
+	img {
+		@include transition(all 0.5s ease-in-out);
+
+		&:hover {
+			@include scale(1.2);
+		}
+	}
+}
+.portfolio-margin-bottom {
+	margin-bottom: 3rem;
+}
+.portfolio-md-margin-bottom {
+	margin-bottom: 3rem;
+	@media (min-width:992px) {
+		margin-bottom: 0;
+	}
+}
+
+// Choose
+.choose-title {
+	padding: 3rem 5.2rem;
+	h3 {
+		color: #282828;
+		font-size: $h3-font-size;
+		line-height: 2.3rem;
+		font-weight: 700;
+		margin-bottom: 0;
+	}
+}
+.choose-content {
+	padding-left: 2.34375rem;
+	padding-right: 2.4rem;
+	@media (min-width: 1600px) {
+		padding-right: 8rem;
+	}
+	span {
+		color: #282828;
+		font-size: $h5-font-size;
+		line-height: 1.5rem;
+		font-weight: 400;
+	}
+}
+
+//-------------------- About --------------------//
+
+#about-us-banner {
+    .col-add-1 {
+        width: 51.25%;
+        .about-bg {
+            margin-left: auto;
+            padding-left: 11.2vw;
+            background-color: #704f40;
+            width: 79%;
+            padding-top: 16vh;
+            p {
+                padding-bottom: 3vw;
+            }
+        }
+    }
+    .col-add-2 {
+        width: 48.75%;
+        padding-left: 3vw;
+        padding-right: 5vw;
+        &.about-bg {
+            background-color: #704f40;
+        }
+    }
+}
+#about-us {
+    padding: 0 5vw;
+    .col-lg-5 {
+        justify-content: center;
+        @include media-breakpoint-up (lg) {
+            justify-content: end;
+            padding-left: 10.8vw;
+        }
+    }
+    .col-lg-7 {
+        @include media-breakpoint-up (lg) {
+            padding-left: 5.2vw;
+            padding-right: 10.8vw;
+        }
+    }
+}
+
+//-------------------- Contact --------------------//
+
+.contact {
+    @include media-breakpoint-up (lg) {
+        padding-left: 6vw;
+    }
+	.contact-email {
+		font-size: 2.25rem;
+		font-family: $heading-font;
+		font-weight: 400;
+		color: $primary;
+		margin-bottom: 0;
+	}
+	.contact-title {
+		font-size: $h1-font-size;
+		font-family: $body-font;
+		font-weight: 800;
+		color: $secondary;
+		line-height: 4rem;
+	}
+}
+.feedback {
+	input {
+		background-color: #2e2e2e;
+	}
+
+	button {
+		background-color: #2e2e2e;
+		i {
+			font-size: 1.25rem;
+			line-height: 1.5rem;
+		}
+	}
+}
+
+//-------------------- Error --------------------//
+
+.error-404 {
+	h2 {
+		color: $primary;
+		font-size: 3rem;
+		line-height: 4rem;
+		font-family: $heading-font;
+		font-weight: 400;
+		margin-bottom: 0;
+	}
+	p {
+		color: #2f363a;
+		font-size: 1.3125rem;
+		font-family: 'Segoe UI';
+		font-weight: 300;
+		line-height: 2.5rem;
+		margin-bottom: 0;
+	}
+	span {
+		color: $primary;
+		font-size: 1.125rem;
+		font-family: 'Segoe UI';
+		font-weight: 300;
+		line-height: 2.5rem;
+	}
+}
+
+//-------------------- Blog --------------------//
+
+#blog-page {
+	#posts {
+		.post {
+			padding: 0.625rem 0;
+
+			.post-thumbnail {
+				@include border-radius(0.5rem);
+			}
+
+			.post-content {
+				display: block;
+				padding: 0.9375rem 0;
+
+				.entry-title {
+					h4 {
+						font-family: $body-font;
+						font-size: 1.1875rem;
+						line-height: 1.875rem;
+
+						a {
+							color: $headings-color;
+
+							&:hover {
+								color: $theme-color;
+							}
+						}
+					}
+				}
+
+				.entry-meta {
+					font-family: $body-font;
+					font-size: 0.875rem;
+					width: 100%;
+					margin-right: 0;
+					padding-top: 0;
+					position: initial;
+
+					a {
+						color: $headings-color;
+					}
+				}
+
+				.entry-link {
+					color: $theme-color;
+					font-size: 0.875rem;
+					margin: 0;
+				}
+
+				.entry-categories {
+					font-size: 0.875rem;
+
+					a {
+						color: $theme-color;
+						padding-left: 0.625rem;
+					}
+				}
+			}
+		}
+	}
+}
+
+/* ----------------------------------------------------------------
+	Team Member Page
+-----------------------------------------------------------------*/
+
+.team-member {
+	padding: 0.625rem;
+	margin-bottom: 1rem;
+
+	@include border-radius(0.5rem);
+
+	.member-avatar {
+		@include border-radius(0.5rem);
+	}
+
+	.member-name {
+		font-size: 1.3125rem;
+		margin-bottom: 1rem;
+	}
+
+	.member-role {
+		color: $theme-color;
+		font-size: 0.75rem;
+	}
+
+	.member-intro {
+		margin-top: 1.5rem;
+
+		.read-more {
+			color: $theme-color;
+			font-size: 1rem;
+			font-weight: 600;
+
+			&::after {
+				// content: escape-svg($external-link-icon);
+				position: relative;
+				top: 3px;
+				margin-left: 0.625rem;
+			}
+		}
+	}
+
+	.member-actions {
+		margin-top: 1.875rem;
+
+		.follow-me {
+			span {
+				margin-right: 1.125rem;
+			}
+		}
+	}
+
+	.member-details {
+		padding: 0 0 3rem 3rem;
+	}
+}
+
+
+/* ----------------------------------------------------------------
+	Single Member Page
+-----------------------------------------------------------------*/
+
+.team-member {
+	padding: 0;
+
+	.member-details {
+		padding: 0 3rem 3rem 3rem;
+	}
+}
+
+#member-services {
+	.member-service {
+		padding-left: 2.25rem;
+		position: relative;
+
+		&::before {
+			content: "";
+			// background-image: escape-svg($checker-icon);
+			background-repeat: no-repeat;
+			background-size: 100%;
+			display: block;
+			width: 1rem;
+			height: 0.8125rem;
+			position: absolute;
+			left: 0;
+			top: 0;
+		}
+
+		h3 {
+			font-family: $body-font;
+			font-size: 1rem;
+			margin-bottom: 1.375rem;
+		}
+	}
+}
+
+#member-portfolios {
+	.member-portfolio {
+		margin-bottom: 1.875rem;
+
+		img {
+			margin-bottom: 1.5rem;
+
+			@include border-radius(0.5rem);
+		}
+
+		h3 {
+			font-family: $body-font;
+			font-size: 1rem;
+			margin-bottom: 0;
+		}
+	}
+}
+
+
+
+/* ----------------------------------------------------------------
+	Blog Page
+-----------------------------------------------------------------*/
+
+#blog-page {
+	#posts {
+		.post {
+			padding: 0.625rem 0;
+
+			.post-thumbnail {
+				@include border-radius(0.5rem);
+			}
+
+			.post-content {
+				display: block;
+				padding: 0.9375rem 0;
+
+				.entry-title {
+					h4 {
+						font-family: $body-font;
+						font-size: 1.1875rem;
+						line-height: 1.875rem;
+
+						a {
+							color: $headings-color;
+
+							&:hover {
+								color: $theme-color;
+							}
+						}
+					}
+				}
+
+				.entry-meta {
+					font-family: $body-font;
+					font-size: 0.875rem;
+					width: 100%;
+					margin-right: 0;
+					padding-top: 0;
+					position: initial;
+
+					a {
+						color: $headings-color;
+					}
+				}
+
+				.entry-link {
+					color: $theme-color;
+					font-size: 0.875rem;
+					margin: 0;
+				}
+
+				.entry-categories {
+					font-size: 0.875rem;
+
+					a {
+						color: $theme-color;
+						padding-left: 0.625rem;
+					}
+				}
+			}
+		}
+	}
+}
+
+
+/* ----------------------------------------------------------------
+	Shope Page
+-----------------------------------------------------------------*/
+
+#shop-page {
+	.sidebar {
+		.widget {
+			&.featured-products {
+				.product {
+					.product-image {
+						@include border-radius(0.5rem);
+					}
+				}
+			}
+		}
+	}
+}
+
+/* ----------------------------------------------------------------
+	Sidebar
+-----------------------------------------------------------------*/
+
+.sidebar {
+	@include media-breakpoint-down(lg) {
+		margin-top: 1.875rem;
+	}
+
+	.widget {
+		margin-bottom: 1.875rem;
+	}
+}
+
+/* ----------------------------------------------------------------
+	Single Product Page
+-----------------------------------------------------------------*/
+
+#single-product-page {
+	.product-thumbnail {
+		position: relative;
+
+		.product-gallery {
+			position: absolute;
+			left: 0;
+			top: 1.25rem;
+			z-index: 1;
+
+			li {
+				border-left: 5px solid transparent;
+				margin-bottom: 0.625rem;
+				padding-left: 0.75rem;
+
+				> a {
+					background-color: $white;
+					display: block;
+					width: 5.625rem;
+					height: 5.625rem;
+					overflow: hidden;
+				}
+
+				&:hover,
+				&.active {
+					border-color: $theme-color;
+				}
+			}
+		}
+	}
+
+	.product-summary {
+		text-align: left;
+	}
+
+	.product.single-product {
+		.onsale {
+			top: 0;
+			right: 1.875rem;
+			bottom: initial;
+		}
+
+		.product-details {
+			padding: 0;
+
+			@include media-breakpoint-down(lg) {
+				padding-top: 2.25rem;
+			}
+		}
+
+		.product-title {
+			color: $body-color;
+			font-size: 2.5rem;
+			font-weight: 700;
+		}
+
+		.product-rating {
+			margin-top: 0;
+			display: inline-block;
+
+			i {
+				color: $theme-color;
+			}
+		}
+
+		.product-price {
+			margin-top: 1.5rem;
+			margin-bottom: 1.5rem;
+			justify-content: flex-start;
+		}
+
+		.product-meta {
+			span {
+				display: block;
+
+				a {
+					color: $headings-color;
+					font-weight: 600;
+				}
+			}
+		}
+
+		form.cart {
+			display: flex;
+			margin-top: 2rem;
+			margin-bottom: 2rem;
+
+			input[type=submit] {
+				height: 3rem;
+				line-height: 3rem;
+				padding: 0 $btn-padding-x;
+			}
+		}
+	}
+
+	.product-more-info {
+		.tab-content {
+			margin-top: 1.5rem;
+		}
+	}
+}
+
+
+
+/* ----------------------------------------------------------------
+	Cart Page
+-----------------------------------------------------------------*/
+
+#cart-page {
+	.cart-form {
+		.shop-table {
+			tfoot {
+				td {
+					padding: 1.25rem 0;
+					border-bottom: none;
+				}
+			}
+
+			.cart-item {
+				.product-thumbnail {
+					width: 8.25rem;
+
+					img {
+						width: 6.25rem;
+						height: auto;
+						min-width: 6.25rem;
+					}
+				}
+
+				.product-name {
+					a {
+						color: $headings-color;
+						font-size: 1rem;
+						font-weight: 600;
+
+						&.product-wishlist,
+						&.product-delete {
+							color: $theme-color;
+							font-size: 0.8125rem;
+							margin-right: 1.25rem;
+						}
+					}
+				}
+
+				.product-subtotal {
+					color: $headings-color;
+					font-size: 1.25rem;
+					font-weight: 600;
+				}
+			}
+
+			.actions {
+				.form-control,
+				.btn {
+					@include media-breakpoint-down(md) {
+						width: 100%;
+						margin-bottom: 1rem;
+					}
+				}
+			}
+		}
+	}
+
+	.cart-totals {
+		@include media-breakpoint-up(lg) {
+			padding: 0 2.375rem;
+		}
+
+		.shop-table {
+			font-size: 0.75rem;
+
+			td, th {
+				border-bottom-width: 1px;
+				border-color: $light;
+				color: $headings-color;
+				padding: 1rem 0;
+				vertical-align: middle;
+			}
+
+			th {
+				font-weight: 600;
+				text-transform: uppercase;
+			}
+
+			td {
+				text-align: right;
+			}
+
+			.order-total {
+				td {
+					font-size: 1.25rem;
+					font-weight: 600;
+				}
+			}
+
+			.shipping {
+				td {
+					text-align: left;
+
+					p {
+						font-weight: 600;
+					}
+				}
+			}
+		}
+
+		.btn {
+			@include media-breakpoint-down(md) {
+				width: 100%;
+			}
+		}
+	}
+}
+
+
+/* ----------------------------------------------------------------
+	Checkout Page
+-----------------------------------------------------------------*/
+
+#checkout-page {
+	.checkout {
+		padding: 2.5rem 0;
+	}
+
+	.order-details {
+		color: $headings-color;
+		font-size: 0.75rem;
+		padding: 2.5rem 0;
+
+		.shop-table {
+			td, th {
+				border-color: $gray-200;
+				border-bottom-width: 1px;
+				color: $headings-color;
+				padding: 1rem 0;
+				vertical-align: middle;
+			}
+
+			.product-total {
+				text-align: right;
+			}
+
+			thead {
+				th {
+					font-weight: 600;
+					text-transform: uppercase;
+				}
+			}
+
+			tfoot {
+				.cart-subtotal,
+				.order-total {
+					th {
+						font-weight: 600;
+						text-transform: uppercase;
+					}
+
+					td {
+						text-align: right;
+					}
+				}
+
+				.order-total {
+					td {
+						font-size: 1.25rem;
+						font-weight: 600;
+					}
+				}
+			}
+
+			.shipping {
+				td {
+					text-align: left;
+
+					p {
+						font-weight: 600;
+					}
+				}
+
+				.shipping-destination {
+					input {
+						background-color: $light;
+					}
+				}
+			}
+		}
+
+		.checkout-payment {
+			p {
+				font-weight: 600;
+			}
+		}
+	}
+}
+
+
+/* ----------------------------------------------------------------
+	Wishlist Page
+-----------------------------------------------------------------*/
+
+#wishlist-page {
+	.shop-table {
+		.wishlist-item {
+			.product-thumbnail {
+				width: 8.25rem;
+
+				img {
+					width: 6.25rem;
+					height: auto;
+					min-width: 6.25rem;
+				}
+			}
+
+			.product-name {
+				a {
+					color: $headings-color;
+					font-size: 1rem;
+					font-weight: 600;
+
+					&.product-delete {
+						color: $theme-color;
+						font-size: 0.8125rem;
+						margin-right: 1.25rem;
+					}
+				}
+			}
+
+			.product-actions {
+				.btn {
+					@include media-breakpoint-down(lg) {
+						width: 100%;
+					}
+				}
+			}
+
+			.product-quantity {
+				.quantity .input-group-prepend {
+					display: flex;
+					align-items: center;
+					margin: 0;
+					padding: 0;
+				}
+				.quantity .input-group-prepend p {
+					margin: 0;
+					padding: 5px;
+				}
+			}
+		}
+	}
+}

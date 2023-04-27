@@ -10635,8 +10635,8 @@ textarea.form-control-lg {
 }
 #demo34 .product .onnew {
   position: absolute;
-  top: 0.7rem;
-  right: 0.7rem;
+  top: 1rem;
+  right: 1rem;
   color: white;
   font-family: "Mr Dafoe", "Sans Serif";
   font-size: 0.9375rem;
@@ -10651,8 +10651,8 @@ textarea.form-control-lg {
 }
 #demo34 .product .onsale {
   position: absolute;
-  top: 0.7rem;
-  right: 0.7rem;
+  top: 1rem;
+  right: 1rem;
   color: white;
   font-family: "Mr Dafoe", "Sans Serif";
   font-size: 0.9375rem;
@@ -10664,6 +10664,11 @@ textarea.form-control-lg {
   line-height: 3.2rem;
   text-align: center;
   z-index: 2;
+}
+@media (min-width: 992px) {
+  #demo34 .product .onsale {
+    right: 1rem;
+  }
 }
 #demo34 .product .add-to-cart a {
   color: #c29a5c;
@@ -10709,6 +10714,23 @@ textarea.form-control-lg {
 #demo34 .ads.ads1 .ads-body {
   padding: 6rem;
   padding-bottom: 12rem;
+}
+@media (min-width: 992px) {
+  #demo34 .ads.ads1 .ads-body {
+    padding-bottom: 13rem;
+  }
+}
+@media (min-width: 1200px) {
+  #demo34 .ads.ads1 .ads-body {
+    padding-top: 9rem;
+    padding-bottom: 9rem;
+  }
+}
+@media (min-width: 1400px) {
+  #demo34 .ads.ads1 .ads-body {
+    padding-top: 6rem;
+    padding-bottom: 17rem;
+  }
 }
 #demo34 .ads.ads1 .ads-body h2, #demo34 .ads.ads1 .ads-body .h2 {
   font-size: 3rem;

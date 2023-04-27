@@ -13,15 +13,13 @@
 /* Heading Block - with Subtitle
 -----------------------------------------------------------------*/
 
-.heading-block { 
-	margin-bottom: 3.75rem; 
+.heading-block {
+	margin-bottom: 3.75rem;
 	text-align: center;
-
 	@media (min-width: 992px){
 		text-align: left;
 	}
-
-	.title {		
+	.title {
 		display: block;
 		font-family: $body-font;
 		font-size: $h2-font-size;
